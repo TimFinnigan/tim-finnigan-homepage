@@ -1,7 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { Route, Link, BrowserRouter as Router, Switch } from "react-router-dom";
+import {
+  Route,
+  NavLink,
+  BrowserRouter as Router,
+  Switch
+} from "react-router-dom";
 import App from "./App";
 import Users from "./users";
 import About from "./about";
@@ -20,13 +25,19 @@ const routing = (
     <div>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink exact class="nav-link" to="/">
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/users">Users</Link>
+          <NavLink class="nav-link" to="/users">
+            Users
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink class="nav-link" to="/about">
+            About
+          </NavLink>
         </li>
       </ul>
       <hr />

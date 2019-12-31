@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link } from "react-router-dom";
+import { Route, NavLink } from "react-router-dom";
 const User = ({ match }) => <p>{match.params.id}</p>;
 class Users extends React.Component {
   render() {
@@ -10,13 +10,19 @@ class Users extends React.Component {
         <strong>select a user</strong>
         <ul>
           <li>
-            <Link to="/users/1">User 1 </Link>
+            <NavLink class="nav-link" to="/users/1">
+              User 1{" "}
+            </NavLink>
           </li>
           <li>
-            <Link to="/users/2">User 2 </Link>
+            <NavLink class="nav-link" to="/users/2">
+              User 2{" "}
+            </NavLink>
           </li>
           <li>
-            <Link to="/users/3">User 3 </Link>
+            <NavLink class="nav-link" to="/users/3">
+              User 3{" "}
+            </NavLink>
           </li>
         </ul>
         <Route path="/users/:id" component={User} />
