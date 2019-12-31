@@ -25,22 +25,17 @@ const routing = (
     <div>
       <ul>
         <li>
-          <NavLink exact class="nav-link" to="/">
+          <NavLink exact to="/">
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink class="nav-link" to="/users">
-            Users
-          </NavLink>
+          <NavLink to="/users">Users</NavLink>
         </li>
         <li>
-          <NavLink class="nav-link" to="/about">
-            About
-          </NavLink>
+          <NavLink to="/about">About</NavLink>
         </li>
       </ul>
-      <hr />
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/users/" component={Users} />
