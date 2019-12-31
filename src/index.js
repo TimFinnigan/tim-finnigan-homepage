@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import { Route, Link, BrowserRouter as Router, Switch } from "react-router-dom";
 import App from "./App";
 import About from "./about";
+import Notfound from "./notfound";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root"));
@@ -24,8 +25,11 @@ const routing = (
           <Link to="/about">About</Link>
         </li>
       </ul>
-      <Route exact path="/" component={App} />
-      <Route path="/about" component={About} />
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route path="/about" component={About} />
+        <Route component={Notfound} />
+      </Switch>
     </div>
   </Router>
 );
