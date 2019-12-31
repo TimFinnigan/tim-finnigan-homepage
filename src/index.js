@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { Route, Link, BrowserRouter as Router, Switch } from "react-router-dom";
 import App from "./App";
+import Users from "./users";
 import About from "./about";
 import Notfound from "./notfound";
 import * as serviceWorker from "./serviceWorker";
@@ -22,11 +23,16 @@ const routing = (
           <Link to="/">Home</Link>
         </li>
         <li>
+          <Link to="/users">Users</Link>
+        </li>
+        <li>
           <Link to="/about">About</Link>
         </li>
       </ul>
+      <hr />
       <Switch>
         <Route exact path="/" component={App} />
+        <Route path="/users/" component={Users} />
         <Route path="/about" component={About} />
         <Route component={Notfound} />
       </Switch>
