@@ -23,6 +23,7 @@ serviceWorker.unregister();
 const routing = (
   <Router>
     <div>
+      <h3>Tim Finnigan</h3>
       <ul>
         <li>
           <NavLink exact to="/">
