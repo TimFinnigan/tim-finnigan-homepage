@@ -6,8 +6,48 @@ class App extends React.Component {
         <br />
         {/* <h4>About</h4> */}
         <p>I like to create simple, practical applications.</p>
-        <p><strong>Specializing in: </strong>JavaScript, HTML, CSS</p>
-        <p><strong>Experienced with: </strong>Angular, React, Highcharts</p>
+        <p>
+          <strong>Specializing in: </strong>JavaScript, Node.js, HTML, CSS
+        </p>
+        <p>
+          <strong>Experienced with: </strong>Angular, React, Highcharts,
+          Bootstrap
+        </p>
+        <strong>Timeline: </strong>
+        <div class="timeline-wrapper">
+          <ul class="timeline">
+            {/* <li class="timeline-item current">
+              <div class="bold time">2020</div>
+              <div class="bold">Seeking new opportunities</div>
+            </li> */}
+            <li class="timeline-item is-done">
+              <div class="bold time">2018</div>
+              <div class="bold">Software Engineer at Siemens</div>
+              <div>TODO: add more details here...</div>
+            </li>
+            <li class="timeline-item is-done">
+              <div class="bold time">2017</div>
+              <div class="bold">Earned Masters Degree</div>
+            </li>
+            <li class="timeline-item is-done">
+              <div class="bold time">2016</div>
+              <div class="bold">Data Analyst at Veritiv</div>
+            </li>
+            <li class="timeline-item is-done">
+              <div class="bold time">2015</div>
+              <div class="bold">Worked at Startups</div>
+            </li>
+            <li class="timeline-item is-done">
+              <div class="bold time">2013</div>
+              <div class="bold">Taught English in Taiwan</div>
+            </li>
+            <li class="timeline-item is-done">
+              <div class="bold time">2012</div>
+              <div class="bold">Earned Bachelors Degree</div>
+            </li>
+          </ul>
+        </div>
+
         <div id="portfolio-links">
           <a
             href="https://github.com/TimFinnigan"
