@@ -8,7 +8,7 @@ import {
   Switch
 } from "react-router-dom";
 import App from "./App";
-import Users from "./users";
+import Projects from "./projects";
 import About from "./about";
 import Notfound from "./notfound";
 import * as serviceWorker from "./serviceWorker";
@@ -23,7 +23,8 @@ serviceWorker.unregister();
 const routing = (
   <Router>
     <div>
-      <h3>Tim Finnigan</h3>
+      {/* <h3>Tim Finnigan</h3> */}
+      <h4>Software Engineer</h4>
       <ul>
         <li>
           <NavLink exact to="/">
@@ -31,15 +32,15 @@ const routing = (
           </NavLink>
         </li>
         <li>
-          <NavLink to="/users">Users</NavLink>
+          <NavLink to="/projects">Projects</NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink to="/about">About</NavLink>
-        </li>
+        </li> */}
       </ul>
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/users/" component={Users} />
+        <Route path="/projects/" component={Projects} />
         <Route path="/about" component={About} />
         <Route component={Notfound} />
       </Switch>
