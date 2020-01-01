@@ -3,7 +3,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h4>Home</h4>
+        <br />
+        {/* <h4>About</h4> */}
+        <p>I like to create simple, practical applications.</p>
       </div>
     )
   }

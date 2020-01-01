@@ -23,12 +23,12 @@ serviceWorker.unregister();
 const routing = (
   <Router>
     <div>
-      {/* <h3>Tim Finnigan</h3> */}
-      <h4>Software Engineer</h4>
+      <h3>Tim Finnigan</h3>
+      <h5>Software Engineer</h5>
       <ul>
         <li>
           <NavLink exact to="/">
-            Home
+            About
           </NavLink>
         </li>
         <li>
