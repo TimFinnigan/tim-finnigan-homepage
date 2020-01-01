@@ -13,6 +13,26 @@ class App extends React.Component {
           <strong>Experienced with: </strong>Angular, React, Highcharts,
           Bootstrap
         </p>
+        <div id="portfolio-links">
+          <a
+            href="https://github.com/TimFinnigan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/timfinnigan11/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a>Resume</a>
+        </div>
+        <br />
+        <p>TODO: add Flexbox?</p>
+        <p>TODO: fix circle spacing/alignment in timeline below</p>
         <strong>Timeline: </strong>
         <div class="timeline-wrapper">
           <ul class="timeline">
@@ -46,24 +66,6 @@ class App extends React.Component {
               <div class="bold">Earned Bachelors Degree</div>
             </li>
           </ul>
-        </div>
-
-        <div id="portfolio-links">
-          <a
-            href="https://github.com/TimFinnigan"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/timfinnigan11/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-          <a>Resume</a>
         </div>
       </div>
     );

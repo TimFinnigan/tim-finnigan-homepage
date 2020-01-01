@@ -50,6 +50,7 @@ code {
   color: steelblue;
   text-decoration: underline;
   padding: 5px;
+  margin-top: 5px;
 }
 
 #portfolio-links a:first-child {
@@ -59,11 +60,13 @@ code {
 .bold {
   font-weight: bold;
 }
+
 .time {
   position: absolute;
   left: -80px;
-  top: -4px
+  top: -4px;
 }
+
 .timeline-wrapper {
   margin-top: 10px;
   padding-left: 60px;
@@ -72,11 +75,13 @@ code {
   font-size: 14px;
   /*border: 1px solid #CCC;*/
 }
+
 .timeline {
   position: relative;
   padding-left: 45px;
   list-style: none;
 }
+
 .timeline::before {
   display: inline-block;
   content: "";
@@ -87,13 +92,16 @@ code {
   height: 100%;
   border-left: 2px solid #ccc;
 }
+
 .timeline-item {
   position: relative;
   counter-increment: list;
 }
+
 .timeline-item:not(:last-child) {
   padding-bottom: 20px;
 }
+
 .timeline-item::before {
   display: inline-block;
   content: "";
@@ -102,6 +110,7 @@ code {
   height: 100%;
   width: 10px;
 }
+
 .timeline-item::after {
   content: "";
   display: inline-block;
@@ -114,11 +123,12 @@ code {
   border-radius: 50%;
   background-color: #fff;
 }
+
 .timeline-item.is-done::before {
   border-left: 2px solid #4caf50;
 }
+
 .timeline-item.is-done::after {
-  /*content: "?";*/
   font-size: 10px;
   color: #fff;
   text-align: center;
