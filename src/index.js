@@ -25,10 +25,10 @@ const routing = (
     <div>
       <h3>Tim Finnigan</h3>
       <h5>Software Engineer</h5>
-      <ul className='nav-links'>
+      <ul className="nav-links">
         <li>
           <NavLink exact to="/">
-            About
+            Home
           </NavLink>
         </li>
         <li>

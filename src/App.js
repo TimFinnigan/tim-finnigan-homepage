@@ -5,14 +5,21 @@ class App extends React.Component {
     return (
       <div>
         <br />
+        <strong>About</strong>
         <p>I like to create simple, practical applications.</p>
+        <p>I enjoy building interactive dashboards and data visualizations.</p>
         <p>
-          <strong>Specializing in: </strong>JavaScript, Node.js, HTML, CSS
+          <strong>Skills</strong>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+            <li>Angular</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Highcharts</li>
+          </ul>
         </p>
-        <p>
-          <strong>Experienced with: </strong>Angular, React, Highcharts,
-          Bootstrap
-        </p>
+        <strong>Links</strong>
         <div id="portfolio-links">
           <a
             href="https://github.com/TimFinnigan"
@@ -31,7 +38,7 @@ class App extends React.Component {
           <a>Resume</a>
         </div>
         <br />
-        <strong>Timeline: </strong>
+        <strong>Timeline </strong>
         <Timeline />
       </div>
     );
