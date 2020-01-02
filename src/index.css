@@ -121,9 +121,9 @@ code {
   display: inline-block;
   position: absolute;
   top: 3px;
-  left: -35px;
-  width: 12px;
-  height: 12px;
+  left: -34px;
+  width: 11px;
+  height: 11px;
   border: 2px solid #ccc;
   border-radius: 50%;
   background-color: #fff;
