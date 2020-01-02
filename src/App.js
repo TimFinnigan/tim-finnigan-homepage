@@ -31,8 +31,6 @@ class App extends React.Component {
           <a>Resume</a>
         </div>
         <br />
-        <p>TODO: add Flexbox?</p>
-        <p>TODO: fix circle spacing/alignment in timeline below</p>
         <strong>Timeline: </strong>
         <Timeline />
       </div>
