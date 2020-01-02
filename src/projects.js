@@ -9,7 +9,7 @@ class Projects extends React.Component {
          <br />
         {/* <h4>Projects</h4> */}
         <strong>Select a Project</strong>
-        <ul class="nav-links">
+        <ul className="nav-links">
           <li>
             <NavLink to="/projects/datashown">Data Shown</NavLink>
           </li>

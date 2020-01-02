@@ -4,6 +4,7 @@ class Timeline extends Component {
   render() {
     return (
       <div className="timeline-wrapper">
+        <strong>Timeline</strong>
         <ul className="timeline">
           <li className="timeline-item is-done">
             <div className="bold time">2017-20</div>
