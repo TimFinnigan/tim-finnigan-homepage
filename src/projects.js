@@ -5,9 +5,7 @@ class Projects extends React.Component {
   render() {
     const { url } = this.props.match;
     return (
-      <div>
-         <br />
-        {/* <h4>Projects</h4> */}
+      <div className="project-container">
         <strong>Select a Project</strong>
         <ul className="nav-links">
           <li>

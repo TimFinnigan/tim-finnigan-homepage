@@ -68,18 +68,23 @@ code {
 }
 
 .timeline-wrapper {
-  margin-top: 10px;
+  margin-top: 20px;
   padding-left: 60px;
   min-width: 400px;
   font-family: "Helvetica";
   font-size: 14px;
-  /*border: 1px solid #CCC;*/
+}
+
+.timeline-wrapper strong {
+  font-size: 16px;
+  margin-left: -60px;
 }
 
 .timeline {
   position: relative;
   padding-left: 45px;
   list-style: none;
+  margin-top: 10px;
 }
 
 .timeline::before {
@@ -146,11 +151,10 @@ code {
 }
 
 #about {
-  margin-right: 50px;
-  margin-top: 10px;
+  margin-right: 60px;
+  margin-top: 20px;
 }
 
-.timeline-wrapper strong {
-  font-size: 16px;
-  margin-left: -60px;
+.project-container {
+  margin-top: 20px;
 }
