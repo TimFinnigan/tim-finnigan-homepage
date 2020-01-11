@@ -120,10 +120,10 @@ code {
   content: "";
   display: inline-block;
   position: absolute;
-  top: 3px;
+  top: 5px;
   left: -34px;
-  width: 11px;
-  height: 11px;
+  width: 10px;
+  height: 10px;
   border: 2px solid #ccc;
   border-radius: 50%;
   background-color: #fff;

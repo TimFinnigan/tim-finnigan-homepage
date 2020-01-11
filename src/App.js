@@ -37,7 +37,7 @@ class App extends React.Component {
             >
               LinkedIn
             </a>
-            <a>Resume</a>
+            {/* <a>Resume</a> */}
           </span>
         </span>
         <Timeline />

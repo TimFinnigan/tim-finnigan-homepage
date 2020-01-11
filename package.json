@@ -1,5 +1,6 @@
 {
   "name": "simple-react-app",
+  "homepage": "https://timfinnigan.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
