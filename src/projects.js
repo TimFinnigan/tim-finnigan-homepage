@@ -7,12 +7,18 @@ const Gantt = ({ match }) => (
     href="http://ganttchartmaker.com"
     target="_blank"
     rel="noopener noreferrer"
+    class="project-link"
   >
     Gantt Chart Maker
   </a>
 );
 const Map = ({ match }) => (
-  <a href="http://worldmapquiz.com" target="_blank" rel="noopener noreferrer">
+  <a
+    href="http://worldmapquiz.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link"
+  >
     World Map Quiz
   </a>
 );
