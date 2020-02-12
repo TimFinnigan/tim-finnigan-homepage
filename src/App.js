@@ -12,7 +12,7 @@ class App extends React.Component {
           </p>
           <strong>Skills</strong>
           <ul>
-            <li>JavaScript</li>
+            <li>JavaScript/jQuery</li>
             <li>HTML/CSS</li>
             <li>Angular</li>
             <li>React</li>
