@@ -13,8 +13,11 @@ const Data = ({ match }) => (
     </a>
     <ul>
       <li>Visual essays covering a variety of topics</li>
-      <li>Built using Angular</li>
+      <li>Highlighting business analytics and opportunities</li>
+      <li>Built using Angular and Chart.js</li>
     </ul>
+    <i>Note: this site is still being developed</i>
+
   </div>
 );
 const Gantt = ({ match }) => (
@@ -29,7 +32,8 @@ const Gantt = ({ match }) => (
     </a>
     <ul>
         <li>A tool for easily creating Gantt charts</li>
-        <li>Built using Highcharts</li>
+        <li>Helps managers estimate developer schedules</li>
+        <li>Built using Highcharts.js</li>
     </ul>
   </div>
 );
@@ -44,8 +48,9 @@ const Map = ({ match }) => (
       World Map Quiz
     </a>
     <ul>
-      <li>A game where users try to guess countrys</li>
-      <li>Built using Amcharts library</li>
+      <li>Guessing game to help learn geography</li>
+      <li>A random country is chosen each time</li>
+      <li>Built using Amcharts.js</li>
     </ul>
   </div>
 );
