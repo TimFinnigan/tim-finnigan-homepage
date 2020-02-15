@@ -13,11 +13,10 @@ const Data = ({ match }) => (
     </a>
     <ul>
       <li>Visual essays covering a variety of topics</li>
-      <li>Highlighting business analytics and opportunities</li>
+      <li>Features business analytics and trends</li>
       <li>Built using Angular and Chart.js</li>
     </ul>
     <i>Note: this site is still being developed</i>
-
   </div>
 );
 const Gantt = ({ match }) => (
@@ -31,9 +30,9 @@ const Gantt = ({ match }) => (
       Gantt Chart Maker
     </a>
     <ul>
-        <li>A tool for easily creating Gantt charts</li>
-        <li>Helps managers estimate developer schedules</li>
-        <li>Built using Highcharts.js</li>
+      <li>A tool for easily creating Gantt charts</li>
+      <li>Helps managers estimate developer schedules</li>
+      <li>Built using Highcharts.js</li>
     </ul>
   </div>
 );
@@ -49,8 +48,25 @@ const Map = ({ match }) => (
     </a>
     <ul>
       <li>Guessing game to help learn geography</li>
-      <li>A random country is chosen each time</li>
+      <li>Random country is chosen each time</li>
       <li>Built using Amcharts.js</li>
+    </ul>
+  </div>
+);
+const Takeaways = ({ match }) => (
+  <div className="project-description">
+    <a
+      href="http://fivetakeaways.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-link"
+    >
+      Five Takeaways
+    </a>
+    <ul>
+      <li>Highlights key takeaways from influential books</li>
+      <li>Book topics cover business, self-development, and technology trends</li>
+      <li>Built with a CMS, but currently being rewritten in React</li> 
     </ul>
   </div>
 );
@@ -71,11 +87,15 @@ class Projects extends React.Component {
           <li>
             <NavLink to="/projects/worldmapquiz">World Map Quiz</NavLink>
           </li>
+          <li>
+            <NavLink to="/projects/fivetakeaways">Five Takeaways</NavLink>
+          </li>
         </ul>
         {/* <Route path="/projects/:id" component={Project} /> */}
         <Route exact path="/projects/datashown" component={Data} />
         <Route exact path="/projects/ganttchartmaker" component={Gantt} />
         <Route exact path="/projects/worldmapquiz" component={Map} />
+        <Route exact path="/projects/fivetakeaways" component={Takeaways} />
       </div>
     );
   }
