@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import {
+  Redirect,
   Route,
   NavLink,
   BrowserRouter as Router,
@@ -40,7 +41,8 @@ const routing = (
       </ul>
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/projects/" component={Projects} />
+        <Redirect exact from="/projects" to="/projects/datashown" />
+        <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
         <Route component={Notfound} />
       </Switch>
