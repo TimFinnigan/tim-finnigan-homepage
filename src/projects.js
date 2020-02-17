@@ -9,7 +9,7 @@ const Data = ({ match }) => (
       rel="noopener noreferrer"
       className="project-link"
     >
-      Data Shown
+      http://datashown.com
     </a>
     <ul>
       <li>Visual essays covering a variety of topics</li>
@@ -27,7 +27,7 @@ const Gantt = ({ match }) => (
       rel="noopener noreferrer"
       className="project-link"
     >
-      Gantt Chart Maker
+      http://ganttchartmaker.com
     </a>
     <ul>
       <li>A tool for easily creating Gantt charts</li>
@@ -44,7 +44,7 @@ const Map = ({ match }) => (
       rel="noopener noreferrer"
       className="project-link"
     >
-      World Map Quiz
+      http://worldmapquiz.com
     </a>
     <ul>
       <li>Guessing game to help learn geography</li>
@@ -61,7 +61,7 @@ const Takeaways = ({ match }) => (
       rel="noopener noreferrer"
       className="project-link"
     >
-      Five Takeaways
+      http://fivetakeaways.com
     </a>
     <ul>
       <li>Highlights key takeaways from influential books</li>
