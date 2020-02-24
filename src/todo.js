@@ -14,7 +14,7 @@ class Todo extends React.Component {
           <li>Finish Udemy course</li>
           <li>Sign up and take front-end Udemy course</li>
           <li>Sign up for Pramp and do MANY practice interviews</li>
-          <li>Review LC posts</li>
+          <li>Review LC posts to get better sense of what to expect</li>
         </ol>
         <h5>Portfolio</h5>
         <ol>
@@ -33,7 +33,11 @@ class Todo extends React.Component {
           </li>
           <li>Add Google Analytics to all my sites</li>
           <li>Add numbers/quantifiable data to my resume/linked in</li>
-
+        </ol>
+        <h5>Skills to learn</h5>
+        <ol>
+          <li>Python</li>
+          <li>Tensor Flow</li>
         </ol>
       </div>
     );
