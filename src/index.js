@@ -11,6 +11,7 @@ import {
 import App from "./App";
 import Projects from "./projects";
 import About from "./about";
+import Todo from "./todo";
 import Notfound from "./notfound";
 import * as serviceWorker from "./serviceWorker";
 
@@ -44,6 +45,7 @@ const routing = (
         <Redirect exact from="/projects" to="/projects/datashown" />
         <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
+        <Route path="/todo" component={Todo} />
         <Route component={Notfound} />
       </Switch>
     </div>
