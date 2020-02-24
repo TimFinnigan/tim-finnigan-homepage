@@ -19,6 +19,9 @@ class Todo extends React.Component {
         <h5>Portfolio</h5>
         <ol>
           <li>Create repo for Mom's site</li>
+          <li>Flesh out datashown - add posts</li>
+          <li>Convert Five Takeaways to react or angular app</li>
+          <li>Outline/write/publish Identity Clarity (see email sent to self 2/23/2020)</li>
           <li>Create/mock-up/flesh out concept for minimalprofile.com</li>
           <ul>
             <li>
