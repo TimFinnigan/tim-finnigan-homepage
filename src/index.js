@@ -42,7 +42,7 @@ const routing = (
       </ul>
       <Switch>
         <Route exact path="/" component={App} />
-        <Redirect exact from="/projects" to="/projects/datashown" />
+        <Redirect exact from="/projects" to="/projects/newsletters" />
         <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
         <Route path="/todo" component={Todo} />
