@@ -47,6 +47,11 @@ code {
   text-decoration: none;
 }
 
+#portfolio-links {
+  margin-bottom: 15px;
+  display: block;
+}
+
 #portfolio-links a {
   color: steelblue;
   text-decoration: underline;

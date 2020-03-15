@@ -31,14 +31,24 @@ class App extends React.Component {
               GitHub
             </a>
             <a
-              href="https://www.linkedin.com/in/timfinnigan11/"
+              href="https://www.linkedin.com/in/tim-finnigan/"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn
             </a>
+            <a
+              href="https://twitter.com/tim_finnigan1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
             {/* <a>Resume</a> */}
           </span>
+          <strong>Email</strong>
+          <br />
+          <span>tim.finnigan1@gmail.com</span>
         </span>
         <Timeline />
       </div>
