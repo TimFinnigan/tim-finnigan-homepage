@@ -47,6 +47,21 @@ code {
   text-decoration: none;
 }
 
+.portfolio-nav-links li {
+  float: none;
+  text-align: left;
+}
+
+.portfolio-nav-links li a {
+  text-align: left;
+}
+
+
+.portfolio-nav-links {
+  margin: 0px;
+  display: inline-block;
+}
+
 #portfolio-links {
   margin-bottom: 15px;
   display: block;
@@ -173,4 +188,7 @@ code {
 .project-description {
   border-left: 2px solid lightgrey;
   padding-left: 10px;
+  margin-left: 25px;
+  vertical-align: top;
+  display: inline-block;
 }

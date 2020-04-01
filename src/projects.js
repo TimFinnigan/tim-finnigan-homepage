@@ -94,7 +94,8 @@ class Projects extends React.Component {
     return (
       <div className="project-container">
         <strong>Select a Project</strong>
-        <ul className="nav-links">
+        <br />
+        <ul className="nav-links portfolio-nav-links">
         <li>
             <NavLink to="/projects/newsletters">Newsletters.Best</NavLink>
           </li>
