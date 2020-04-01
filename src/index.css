@@ -60,6 +60,8 @@ code {
 .portfolio-nav-links {
   margin: 0px;
   display: inline-block;
+  border-right: 2px solid lightgrey;
+  padding-right: 20px;
 }
 
 #portfolio-links {
@@ -183,12 +185,17 @@ code {
 .project-link {
   color: steelblue;
   text-decoration: underline;
+  font-size: 22px;
 }
 
 .project-description {
-  border-left: 2px solid lightgrey;
-  padding-left: 10px;
-  margin-left: 25px;
+  /* border-left: 2px solid lightgrey; */
+  margin-left: 20px;
+  margin-top: 5px;
   vertical-align: top;
   display: inline-block;
+}
+
+.project-description ul li {
+  margin: 15px 0px;
 }

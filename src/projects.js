@@ -4,12 +4,12 @@ import { Route, NavLink } from "react-router-dom";
 const Newsletters = ({ match }) => (
   <div className="project-description">
     <a
-      href="http://newsletters.best"
+      href="https://newsletters.best"
       target="_blank"
       rel="noopener noreferrer"
       className="project-link"
     >
-      http://newsletters.best
+      https://newsletters.best
     </a>
     <ul>
       <li>A curated list of the best online newsletters</li>
@@ -18,15 +18,32 @@ const Newsletters = ({ match }) => (
     </ul>
   </div>
 );
-const Data = ({ match }) => (
+const Toolbox = ({ match }) => (
   <div className="project-description">
     <a
-      href="http://datashown.com"
+      href="https://chrome.google.com/webstore/detail/knlhnhhegdjhedaijoiaholkommidbad"
       target="_blank"
       rel="noopener noreferrer"
       className="project-link"
     >
-      http://datashown.com
+      https://chrome.google.com/webstore/detail/knlhnhhegdjhedaijoiaholkommidbad
+    </a>
+    <ul>
+      <li>A Chrome extension for easily accessing the best resources for coders</li>
+      <li>The bookmarks are sortable and customizable by the user</li>
+      <li>Build with HTML5 and jQuery-UI</li>
+    </ul>
+  </div>
+);
+const Data = ({ match }) => (
+  <div className="project-description">
+    <a
+      href="https://datashown.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-link"
+    >
+      https://datashown.com
     </a>
     <ul>
       <li>Visual essays covering a variety of topics</li>
@@ -39,12 +56,12 @@ const Data = ({ match }) => (
 const Gantt = ({ match }) => (
   <div className="project-description">
     <a
-      href="http://ganttchartmaker.com"
+      href="https://ganttchartmaker.com"
       target="_blank"
       rel="noopener noreferrer"
       className="project-link"
     >
-      http://ganttchartmaker.com
+      https://ganttchartmaker.com
     </a>
     <ul>
       <li>A tool for easily creating Gantt charts</li>
@@ -56,12 +73,12 @@ const Gantt = ({ match }) => (
 const Map = ({ match }) => (
   <div className="project-description">
     <a
-      href="http://worldmapquiz.com"
+      href="https://worldmapquiz.com"
       target="_blank"
       rel="noopener noreferrer"
       className="project-link"
     >
-      http://worldmapquiz.com
+      https://worldmapquiz.com
     </a>
     <ul>
       <li>Guessing game to help learn geography</li>
@@ -73,17 +90,19 @@ const Map = ({ match }) => (
 const Takeaways = ({ match }) => (
   <div className="project-description">
     <a
-      href="http://fivetakeaways.com"
+      href="https://fivetakeaways.com"
       target="_blank"
       rel="noopener noreferrer"
       className="project-link"
     >
-      http://fivetakeaways.com
+      https://fivetakeaways.com
     </a>
     <ul>
       <li>Highlights key takeaways from influential books</li>
-      <li>Book topics cover business, self-development, and technology trends</li>
-      <li>Built with a CMS, but currently being rewritten in React</li> 
+      <li>
+        Book topics cover business, self-development, and technology trends
+      </li>
+      <li>Built with a CMS, but currently being rewritten in React</li>
     </ul>
   </div>
 );
@@ -96,8 +115,11 @@ class Projects extends React.Component {
         <strong>Select a Project</strong>
         <br />
         <ul className="nav-links portfolio-nav-links">
-        <li>
+          <li>
             <NavLink to="/projects/newsletters">Newsletters.Best</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects/coderstoolbox">Coder's Toolbox</NavLink>
           </li>
           <li>
             <NavLink to="/projects/ganttchartmaker">Gantt Chart Maker</NavLink>
@@ -114,11 +136,11 @@ class Projects extends React.Component {
         </ul>
         {/* <Route path="/projects/:id" component={Project} /> */}
         <Route exact path="/projects/newsletters" component={Newsletters} />
+        <Route exact path="/projects/coderstoolbox" component={Toolbox} />
         <Route exact path="/projects/ganttchartmaker" component={Gantt} />
         <Route exact path="/projects/worldmapquiz" component={Map} />
         <Route exact path="/projects/fivetakeaways" component={Takeaways} />
         <Route exact path="/projects/datashown" component={Data} />
-
       </div>
     );
   }
