@@ -19,19 +19,39 @@ class Principles extends React.Component {
           <li>Learning</li>
           <ul>
             <li>Always be learning new things every day.</li>
-            <li>Diversity of formats: books, articles, newsletters, videos, podcasts...</li>
+            <li>
+              Diversity of formats: books, articles, newsletters, videos,
+              podcasts...
+            </li>
             <li>Diversity of sources: old, new, popular, obscure...</li>
-            <li>Prioritize just-in-time information over just-in-case information</li>
+            <li>
+              Prioritize just-in-time information over just-in-case information
+            </li>
+            <li>
+              Follow the Goldilocks Rule: "The Goldilocks Rule states that
+              humans experience peak motivation when working on tasks that are
+              right on the edge of their current abilities. Not too hard. Not
+              too easy."
+            </li>
           </ul>
           <li>Creating</li>
           <ul>
             <li>Balance learning with creating. Make new things.</li>
-            <li>Creations could be artistic, entrepreneurial, or just for fun.</li>
+            <li>
+              Creations could be artistic, entrepreneurial, or just for fun.
+            </li>
           </ul>
           <li>Failproofing</li>
           <ul>
-            <li>When choosing a new project to pursue, try to make sure it is Failproof, meaning that you will benefit from this regardless of the outcome</li>
-            <li>For example, pursuing a business idea where the worst case scenario is that you will learn new skills</li>
+            <li>
+              When choosing a new project to pursue, try to make sure it is
+              Failproof, meaning that you will benefit from this regardless of
+              the outcome
+            </li>
+            <li>
+              For example, pursuing a business idea where the worst case
+              scenario is that you will learn new skills
+            </li>
           </ul>
           <li>Playing</li>
           <ul>
@@ -44,7 +64,10 @@ class Principles extends React.Component {
           <li>Relationships</li>
           <ul>
             <li>Make an effort to build relationships with others.</li>
-            <li>Build connections not just through family and friends, but also work, hobbies, sports, etc.</li>
+            <li>
+              Build connections not just through family and friends, but also
+              work, hobbies, sports, etc.
+            </li>
           </ul>
           <li>Meditation</li>
           <ul>
