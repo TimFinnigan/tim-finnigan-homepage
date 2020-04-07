@@ -25,13 +25,16 @@ class Principles extends React.Component {
             </li>
             <li>Diversity of sources: old, new, popular, obscure...</li>
             <li>
-              Prioritize just-in-time information over just-in-case information
+              Prioritize <b>just-in-time</b> information over <b>just-in-case</b> information
             </li>
             <li>
-              Follow the Goldilocks Rule: "The Goldilocks Rule states that
+              Follow the Goldilocks Rule
+              <ul>
+                <li><i>"The Goldilocks Rule states that
               humans experience peak motivation when working on tasks that are
               right on the edge of their current abilities. Not too hard. Not
-              too easy."
+              too easy."</i></li>
+              </ul>
             </li>
           </ul>
           <li>Creating</li>
@@ -40,6 +43,8 @@ class Principles extends React.Component {
             <li>
               Creations could be artistic, entrepreneurial, or just for fun.
             </li>
+            <li>Make things that <b>you</b> wish existed in the world.</li>
+            <li>Use the Pomodoro technique to alternate focusing and breaks from work.</li>
           </ul>
           <li>Failproofing</li>
           <ul>
@@ -50,12 +55,13 @@ class Principles extends React.Component {
             </li>
             <li>
               For example, pursuing a business idea where the worst case
-              scenario is that you will learn new skills
+              scenario is that you will learn new skills.
             </li>
           </ul>
           <li>Playing</li>
           <ul>
             <li>Maintain a playful spirit. Have fun with what you do.</li>
+            <li>Play games often. Learn new games regularly.</li>
           </ul>
           <li>Flexibility</li>
           <ul>
@@ -71,7 +77,17 @@ class Principles extends React.Component {
           </ul>
           <li>Meditation</li>
           <ul>
-            <li>Meditate regularly: both sitting and walking</li>
+            <li>Meditate regularly: both sitting and .</li>
+          </ul>
+          <li>Health</li>
+          <ul>
+            <li>Eat homemade food.</li>
+            <li>Take walks/hikes outside.</li>
+            <li>Stretch and exercise with a focus on strength, balance, and flexibility.</li>
+          </ul>
+          <li>Gratitude</li>
+          <ul>
+            <li>Take time every day to recognize what you have to be grateful for.</li>
           </ul>
         </ol>
       </div>
