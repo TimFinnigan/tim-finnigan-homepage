@@ -21,6 +21,7 @@ class Principles extends React.Component {
             <li>Always be learning new things every day.</li>
             <li>Diversity of formats: books, articles, newsletters, videos, podcasts...</li>
             <li>Diversity of sources: old, new, popular, obscure...</li>
+            <li>Prioritize just-in-time information over just-in-case information</li>
           </ul>
           <li>Creating</li>
           <ul>
