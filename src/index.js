@@ -12,6 +12,7 @@ import App from "./App";
 import Projects from "./projects";
 import Principles from "./principles";
 import Goals from "./goals";
+import LearnCodeByDoing from "./learncodebydoing";
 import About from "./about";
 import Todo from "./todo";
 import Notfound from "./notfound";
@@ -48,6 +49,7 @@ const routing = (
         <Route path="/projects" component={Projects} />
         <Route path="/principles" component={Principles} />
         <Route path="/goals" component={Goals} />
+        <Route path="/learncodebydoing" component={LearnCodeByDoing} />
         <Route path="/about" component={About} />
         <Route path="/todo" component={Todo} />
         <Route component={Notfound} />
