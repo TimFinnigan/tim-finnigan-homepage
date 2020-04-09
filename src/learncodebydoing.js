@@ -123,12 +123,20 @@ class LearnCodeByDoing extends React.Component {
           </ul>
           <li>Single Page App</li>
           <li>Progressive Web App</li>
+          <li>An app using YouTube API</li>
+          <li>A selenium automation app</li>
           <li>React Native app</li>
           <li>Python web-scraping app</li>
           <li>Tensorflow app</li>
           <li>Electron app</li>
           <li>ARKit app</li>
         </ol>
+        <h5>Brainstorming ideas</h5>
+        <ul>
+            <li>Quotes app - like Pinterest for quotes</li>
+            <li>Things I like app - using AI to generate recommendations across categories</li>
+            <li>Hero tiles - collect people you admire, create virtual roundtable</li>
+        </ul>
       </div>
     );
   }
