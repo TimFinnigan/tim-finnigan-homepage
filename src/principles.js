@@ -45,6 +45,8 @@ class Principles extends React.Component {
             </li>
             <li>Make things that <b>you</b> wish existed in the world.</li>
             <li>Use the Pomodoro technique to alternate focusing and breaks from work.</li>
+            <li>Take "little bets" - put things out there when the stakes are low and get quick feedback.</li>
+            <li>"The perfect is the enemy of the good." - don't try to make things perfect before putting them out into the world.</li>
           </ul>
           <li>Failproofing</li>
           <ul>
