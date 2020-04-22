@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, NavLink } from "react-router-dom";
 
-class Principles extends React.Component {
+class Ideas extends React.Component {
   render() {
     // const { url } = this.props.match;
     return (
@@ -15,9 +15,18 @@ class Principles extends React.Component {
           </li>
           <li>Scrape /r/AskReddit to get questions, the use Selenium to automate Quora to ask questions.</li>
           <li>Page to analyze YouTube trending (find patterns, like in titles, durations, etc.)</li>
+          <li>History analyzer - find trends in what kinds of pages you access!</li>
+          <li>Alexa</li>
+          <ul>
+              <li>Good Pomodoro timer, that tracks them throughout the day</li>
+              <li>inspiring quote</li>
+              <li>dad joke</li>
+              <li>draft kings</li>
+              <li>Venmo</li>
+          </ul>
         </ol>
       </div>
     );
   }
 }
-export default Principles;
+export default Ideas;

@@ -12,6 +12,8 @@ import App from "./App";
 import Projects from "./projects";
 import Principles from "./principles";
 import Goals from "./goals";
+import Ideas from "./ideas";
+import Quotes from "./quotes";
 import LearnCodeByDoing from "./learncodebydoing";
 import About from "./about";
 import Todo from "./todo";
