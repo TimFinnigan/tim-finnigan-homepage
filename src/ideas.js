@@ -24,6 +24,7 @@ class Ideas extends React.Component {
               <li>draft kings</li>
               <li>Venmo</li>
           </ul>
+          <li>Short story - Senior citizen in nursing home is given a robot companion, who helps them escape</li>
         </ol>
       </div>
     );
