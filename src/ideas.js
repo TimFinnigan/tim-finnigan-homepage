@@ -13,18 +13,33 @@ class Ideas extends React.Component {
             them at some point. Because you have a lot of ideas, but you need to
             be deliberate about what you choose to work on)
           </li>
-          <li>Scrape /r/AskReddit to get questions, the use Selenium to automate Quora to ask questions.</li>
-          <li>Page to analyze YouTube trending (find patterns, like in titles, durations, etc.)</li>
-          <li>History analyzer - find trends in what kinds of pages you access!</li>
+          <li>
+            Scrape /r/AskReddit to get questions, the use Selenium to automate
+            Quora to ask questions.
+          </li>
+          <li>
+            Page to analyze YouTube trending (find patterns, like in titles,
+            durations, etc.)
+          </li>
+          <li>Chrome extensions</li>
+          <ul>
+            <li>
+              History analyzer - find trends in what kinds of pages you access!
+            </li>
+            <li>Hide music videos from YouTube (or maybe just from the /trending page)</li>
+          </ul>
           <li>Alexa</li>
           <ul>
-              <li>Good Pomodoro timer, that tracks them throughout the day</li>
-              <li>inspiring quote</li>
-              <li>dad joke</li>
-              <li>draft kings</li>
-              <li>Venmo</li>
+            <li>Good Pomodoro timer, that tracks them throughout the day</li>
+            <li>inspiring quote</li>
+            <li>dad joke</li>
+            <li>draft kings</li>
+            <li>Venmo</li>
           </ul>
-          <li>Short story - Senior citizen in nursing home is given a robot companion, who helps them escape</li>
+          <li>
+            Short story - Senior citizen in nursing home is given a robot
+            companion, who helps them escape
+          </li>
         </ol>
       </div>
     );
