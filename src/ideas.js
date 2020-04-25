@@ -8,6 +8,7 @@ class Ideas extends React.Component {
       <div className="project-container">
         <h3>Ideas</h3>
         <ol>
+          <li>JavaScript - text to flowchart (example: if X, then Y, etc.)</li>
           <li>
             (the thought here is to record ideas, and they maybe come back to
             them at some point. Because you have a lot of ideas, but you need to
