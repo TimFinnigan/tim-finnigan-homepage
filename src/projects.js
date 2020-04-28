@@ -18,20 +18,56 @@ const Newsletters = ({ match }) => (
     </ul>
   </div>
 );
-const Toolbox = ({ match }) => (
+const Chrome = ({ match }) => (
   <div className="project-description">
+    <a
+      href="https://chrome.google.com/webstore/detail/hellcneecepjkpoflpdbbeijjkjklepk"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-link"
+    >
+      Minimalist Stack Overflow
+    </a>
+    <ul>
+      <li>
+        A minimalist theme to show a clean and simple version of Stack Overflow
+      </li>
+    </ul>
+    <a
+      href="https://chrome.google.com/webstore/detail/plfdidllminimcdbbfmapikbbbdjlbna"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-link"
+    >
+      Simple Pomodoro Timer
+    </a>
+    <ul>
+      <li>A simple 25-minute timer to help improve your productivity</li>
+    </ul>
+    <a
+      href="https://chrome.google.com/webstore/detail/gmgpkfaklkchpfbihfligkdgigjicgbc"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-link"
+    >
+      Simple To Do List
+    </a>
+    <ul>
+      <li>
+        A customizable and sortable to do list for tracking tasks in your
+        browser
+      </li>
+    </ul>
     <a
       href="https://chrome.google.com/webstore/detail/knlhnhhegdjhedaijoiaholkommidbad"
       target="_blank"
       rel="noopener noreferrer"
       className="project-link"
     >
-      https://chrome.google.com/webstore/detail/knlhnhhegdjhedaijoiaholkommidbad
+      Coder's Toolbox
     </a>
     <ul>
-      <li>A Chrome extension for easily accessing the best resources for coders</li>
-      <li>The bookmarks are sortable and customizable by the user</li>
-      <li>Build with HTML5 and jQuery-UI</li>
+      <li>An extension to help easily access the best resources for coders</li>
     </ul>
   </div>
 );
@@ -50,7 +86,6 @@ const Data = ({ match }) => (
       <li>Features business analytics and trends</li>
       <li>Built with Angular and Chart.js</li>
     </ul>
-    <i>Note: this site is still being developed</i>
   </div>
 );
 const Gantt = ({ match }) => (
@@ -116,27 +151,29 @@ class Projects extends React.Component {
         <br />
         <ul className="nav-links portfolio-nav-links">
           <li>
-            <NavLink to="/projects/newsletters">Newsletters.Best</NavLink>
-          </li>
-          <li>
-            <NavLink to="/projects/coderstoolbox">Coder's Toolbox</NavLink>
+            <NavLink to="/projects/datashown">Data Shown</NavLink>
           </li>
           <li>
             <NavLink to="/projects/ganttchartmaker">Gantt Chart Maker</NavLink>
           </li>
           <li>
-            <NavLink to="/projects/worldmapquiz">World Map Quiz</NavLink>
-          </li>
-          <li>
             <NavLink to="/projects/fivetakeaways">Five Takeaways</NavLink>
           </li>
           <li>
-            <NavLink to="/projects/datashown">Data Shown</NavLink>
+            <NavLink to="/projects/worldmapquiz">World Map Quiz</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects/newsletters">Newsletters.Best</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects/chrome-extensions">
+              Chrome Extensions
+            </NavLink>
           </li>
         </ul>
         {/* <Route path="/projects/:id" component={Project} /> */}
         <Route exact path="/projects/newsletters" component={Newsletters} />
-        <Route exact path="/projects/coderstoolbox" component={Toolbox} />
+        <Route exact path="/projects/chrome-extensions" component={Chrome} />
         <Route exact path="/projects/ganttchartmaker" component={Gantt} />
         <Route exact path="/projects/worldmapquiz" component={Map} />
         <Route exact path="/projects/fivetakeaways" component={Takeaways} />
