@@ -51,6 +51,8 @@ const routing = (
         <Route path="/projects" component={Projects} />
         <Route path="/principles" component={Principles} />
         <Route path="/goals" component={Goals} />
+        <Route path="/quotes" component={Quotes} />
+        <Route path="/ideas" component={Ideas} />
         <Route path="/learncodebydoing" component={LearnCodeByDoing} />
         <Route path="/about" component={About} />
         <Route path="/todo" component={Todo} />
