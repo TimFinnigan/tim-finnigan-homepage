@@ -6,7 +6,7 @@ import {
   Route,
   NavLink,
   BrowserRouter as Router,
-  Switch
+  Switch,
 } from "react-router-dom";
 import App from "./App";
 import Projects from "./projects";
@@ -47,7 +47,7 @@ const routing = (
       </ul>
       <Switch>
         <Route exact path="/" component={App} />
-        <Redirect exact from="/projects" to="/projects/newsletters" />
+        <Redirect exact from="/projects" to="/projects/datashown" />
         <Route path="/projects" component={Projects} />
         <Route path="/principles" component={Principles} />
         <Route path="/goals" component={Goals} />
