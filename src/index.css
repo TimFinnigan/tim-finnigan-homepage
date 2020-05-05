@@ -56,7 +56,6 @@ code {
   text-align: left;
 }
 
-
 .portfolio-nav-links {
   margin: 0px;
   display: inline-block;
@@ -206,4 +205,8 @@ code {
 
 .italic {
   font-style: italic;
+}
+
+.skills {
+  display: inline-block;
 }

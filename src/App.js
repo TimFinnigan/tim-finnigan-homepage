@@ -6,20 +6,30 @@ class App extends React.Component {
       <div className="flex-container">
         <span id="about">
           <strong>About</strong>
-          <p>I like to create simple, practical applications.</p>
+          <p>Efficient software engineer and problem solver.</p>
           <p>
-            I enjoy building interactive dashboards and data visualizations.
+            Positive attitude and easy to work with. Always looking to learn.
           </p>
+          <p>I like building interactive dashboards and data visualizations.</p>
           <strong>Skills</strong>
-          <ul>
-            <li>JavaScript/jQuery</li>
-            <li>HTML/CSS</li>
+          <br />
+          <ul className="skills">
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>Angular</li>
             <li>React</li>
+          </ul>
+          <ul className="skills">
             <li>Node.js</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>AWS</li>
+            <li>Tableau</li>
             <li>Highcharts</li>
           </ul>
-
+          <br />
           <strong>Links</strong>
           <br />
           <span id="portfolio-links">
