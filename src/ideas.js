@@ -22,12 +22,20 @@ class Ideas extends React.Component {
             Page to analyze YouTube trending (find patterns, like in titles,
             durations, etc.)
           </li>
+          <li>
+            Podcast analysis - example: Tim Ferriss show analyze guests,
+            categories, duration, etc. could look at transcripts, isolate
+            questions, find repeats, sentiment score, etc.
+          </li>
           <li>Chrome extensions</li>
           <ul>
             <li>
               History analyzer - find trends in what kinds of pages you access!
             </li>
-            <li>Hide music videos from YouTube (or maybe just from the /trending page)</li>
+            <li>
+              Hide music videos from YouTube (or maybe just from the /trending
+              page)
+            </li>
           </ul>
           <li>Alexa</li>
           <ul>
