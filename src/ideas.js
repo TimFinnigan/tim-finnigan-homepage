@@ -49,6 +49,11 @@ class Ideas extends React.Component {
             Short story - Senior citizen in nursing home is given a robot
             companion, who helps them escape
           </li>
+          <li>
+            idea - chrome extension - sentiment score tagger - highlight tweets
+            as red or green based on negative or positive tweets. option to hide
+            (filter out) negative
+          </li>
         </ol>
       </div>
     );
