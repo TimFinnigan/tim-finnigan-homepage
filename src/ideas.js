@@ -54,6 +54,10 @@ class Ideas extends React.Component {
             as red or green based on negative or positive tweets. option to hide
             (filter out) negative
           </li>
+          <li>
+            Idea - use Augmented Reality / computer vision to decode
+            typefaces...
+          </li>
         </ol>
       </div>
     );
