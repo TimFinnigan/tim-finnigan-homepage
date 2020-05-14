@@ -8,10 +8,22 @@ class Quotes extends React.Component {
       <div className="project-container">
         <h3>Quotes</h3>
         <ol>
-          <li>"Allow yourself the uncomfortable luxury of changing your mind." - Maria Popova</li>
+          <li>
+            "Allow yourself the uncomfortable luxury of changing your mind." -
+            Maria Popova
+          </li>
           <li>"Perfect is the enemy of the good." - Voltaire</li>
-          <li>"If you can't describe what you're doing as a process, you don't know what you're doing." - W. Edwards Deming</li>
-          <li>"Simplicity is the ultimate sophistication." - Leonardo da Vinci</li>
+          <li>
+            "If you can't describe what you're doing as a process, you don't
+            know what you're doing." - W. Edwards Deming
+          </li>
+          <li>
+            "Simplicity is the ultimate sophistication." - Leonardo da Vinci
+          </li>
+          <li>
+            "You are, in the way you craft your narrative, kind of crafting your
+            character." - Michael Lewis
+          </li>
         </ol>
       </div>
     );
