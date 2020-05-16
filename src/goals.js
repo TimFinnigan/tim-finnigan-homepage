@@ -42,6 +42,14 @@ class Goals extends React.Component {
           <li>Electron app</li>
           <li>ARKit app</li>
         </ol>
+        <h3>Things I want to buy</h3>
+        <ol>
+          <li>Drone</li>
+          <li>3D Printer</li>
+          <li>Oculus/VR set</li>
+          <li>AR headset</li>
+          <li>Tesla</li>
+        </ol>
       </div>
     );
   }
