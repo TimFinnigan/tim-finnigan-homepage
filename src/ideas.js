@@ -58,6 +58,9 @@ class Ideas extends React.Component {
             Idea - use Augmented Reality / computer vision to decode
             typefaces...
           </li>
+          <li>
+            Board games for brands - example, like a 90 day fiance board game
+          </li>
         </ol>
       </div>
     );
