@@ -13,6 +13,7 @@ import Projects from "./projects";
 import Principles from "./principles";
 import Goals from "./goals";
 import Ideas from "./ideas";
+import ProjectPostMortems from "./project-post-mortems";
 import Quotes from "./quotes";
 import LearnCodeByDoing from "./learncodebydoing";
 import About from "./about";
@@ -53,6 +54,7 @@ const routing = (
         <Route path="/goals" component={Goals} />
         <Route path="/quotes" component={Quotes} />
         <Route path="/ideas" component={Ideas} />
+        <Route path="/project-post-mortems" component={ProjectPostMortems} />
         <Route path="/learncodebydoing" component={LearnCodeByDoing} />
         <Route path="/about" component={About} />
         <Route path="/todo" component={Todo} />
