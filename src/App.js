@@ -47,13 +47,13 @@ class App extends React.Component {
             >
               LinkedIn
             </a>
-            <a
+            {/* <a
               href="https://twitter.com/tim_finnigan1"
               target="_blank"
               rel="noopener noreferrer"
             >
               Twitter
-            </a>
+            </a> */}
             {/* <a>Resume</a> */}
           </span>
           <strong>Email</strong>
