@@ -151,19 +151,21 @@ class Projects extends React.Component {
         <br />
         <ul className='nav-links portfolio-nav-links'>
           <li>
-            <NavLink to='/projects/fivetakeaways'>Five Takeaways</NavLink>
+            <NavLink to='/projects/five-takeaways'>Five Takeaways</NavLink>
           </li>
           <li>
-            <NavLink to='/projects/ganttchartmaker'>Gantt Chart Maker</NavLink>
+            <NavLink to='/projects/gantt-chart-maker'>
+              Gantt Chart Maker
+            </NavLink>
           </li>
           <li>
-            <NavLink to='/projects/worldmapquiz'>World Map Quiz</NavLink>
+            <NavLink to='/projects/world-map-quiz'>World Map Quiz</NavLink>
           </li>
           <li>
-            <NavLink to='/projects/datashown'>Data Shown</NavLink>
+            <NavLink to='/projects/data-shown'>Data Shown</NavLink>
           </li>
           <li>
-            <NavLink to='/projects/newsletters'>Newsletters.Best</NavLink>
+            <NavLink to='/projects/newsletters-best'>Newsletters.Best</NavLink>
           </li>
           <li>
             <NavLink to='/projects/chrome-extensions'>
@@ -172,12 +174,16 @@ class Projects extends React.Component {
           </li>
         </ul>
         {/* <Route path="/projects/:id" component={Project} /> */}
-        <Route exact path='/projects/newsletters' component={Newsletters} />
+        <Route
+          exact
+          path='/projects/newsletters-best'
+          component={Newsletters}
+        />
         <Route exact path='/projects/chrome-extensions' component={Chrome} />
-        <Route exact path='/projects/ganttchartmaker' component={Gantt} />
-        <Route exact path='/projects/worldmapquiz' component={Map} />
-        <Route exact path='/projects/fivetakeaways' component={Takeaways} />
-        <Route exact path='/projects/datashown' component={Data} />
+        <Route exact path='/projects/gantt-chart-maker' component={Gantt} />
+        <Route exact path='/projects/world-map-quiz' component={Map} />
+        <Route exact path='/projects/five-takeaways' component={Takeaways} />
+        <Route exact path='/projects/data-shown' component={Data} />
       </div>
     );
   }
