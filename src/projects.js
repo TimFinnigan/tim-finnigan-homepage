@@ -137,7 +137,7 @@ const Takeaways = ({ match }) => (
       <li>
         Book topics cover business, self-development, and technology trends
       </li>
-      <li>Built with a CMS, but currently being rewritten in React</li>
+      <li>Built with React</li>
     </ul>
   </div>
 );
