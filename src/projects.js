@@ -1,13 +1,13 @@
-import React from "react";
-import { Route, NavLink } from "react-router-dom";
+import React from 'react';
+import { Route, NavLink } from 'react-router-dom';
 // const Project = ({ match }) => <p>{match.params.id}</p>;
 const Newsletters = ({ match }) => (
-  <div className="project-description">
+  <div className='project-description'>
     <a
-      href="https://newsletters.best"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
+      href='https://newsletters.best'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='project-link'
     >
       https://newsletters.best
     </a>
@@ -19,12 +19,12 @@ const Newsletters = ({ match }) => (
   </div>
 );
 const Chrome = ({ match }) => (
-  <div className="project-description">
+  <div className='project-description'>
     <a
-      href="https://chrome.google.com/webstore/detail/hellcneecepjkpoflpdbbeijjkjklepk"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
+      href='https://chrome.google.com/webstore/detail/hellcneecepjkpoflpdbbeijjkjklepk'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='project-link'
     >
       Minimalist Stack Overflow
     </a>
@@ -34,10 +34,10 @@ const Chrome = ({ match }) => (
       </li>
     </ul>
     <a
-      href="https://chrome.google.com/webstore/detail/plfdidllminimcdbbfmapikbbbdjlbna"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
+      href='https://chrome.google.com/webstore/detail/plfdidllminimcdbbfmapikbbbdjlbna'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='project-link'
     >
       Simple Pomodoro Timer
     </a>
@@ -45,10 +45,10 @@ const Chrome = ({ match }) => (
       <li>A simple 25-minute timer to help improve your productivity</li>
     </ul>
     <a
-      href="https://chrome.google.com/webstore/detail/gmgpkfaklkchpfbihfligkdgigjicgbc"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
+      href='https://chrome.google.com/webstore/detail/gmgpkfaklkchpfbihfligkdgigjicgbc'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='project-link'
     >
       Simple To Do List
     </a>
@@ -59,10 +59,10 @@ const Chrome = ({ match }) => (
       </li>
     </ul>
     <a
-      href="https://chrome.google.com/webstore/detail/knlhnhhegdjhedaijoiaholkommidbad"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
+      href='https://chrome.google.com/webstore/detail/knlhnhhegdjhedaijoiaholkommidbad'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='project-link'
     >
       Coder's Toolbox
     </a>
@@ -72,12 +72,12 @@ const Chrome = ({ match }) => (
   </div>
 );
 const Data = ({ match }) => (
-  <div className="project-description">
+  <div className='project-description'>
     <a
-      href="https://datashown.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
+      href='https://datashown.com'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='project-link'
     >
       https://datashown.com
     </a>
@@ -89,12 +89,12 @@ const Data = ({ match }) => (
   </div>
 );
 const Gantt = ({ match }) => (
-  <div className="project-description">
+  <div className='project-description'>
     <a
-      href="https://ganttchartmaker.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
+      href='https://ganttchartmaker.com'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='project-link'
     >
       https://ganttchartmaker.com
     </a>
@@ -106,12 +106,12 @@ const Gantt = ({ match }) => (
   </div>
 );
 const Map = ({ match }) => (
-  <div className="project-description">
+  <div className='project-description'>
     <a
-      href="https://worldmapquiz.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
+      href='https://worldmapquiz.com'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='project-link'
     >
       https://worldmapquiz.com
     </a>
@@ -123,12 +123,12 @@ const Map = ({ match }) => (
   </div>
 );
 const Takeaways = ({ match }) => (
-  <div className="project-description">
+  <div className='project-description'>
     <a
-      href="https://fivetakeaways.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
+      href='https://fivetakeaways.com'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='project-link'
     >
       https://fivetakeaways.com
     </a>
@@ -146,38 +146,38 @@ class Projects extends React.Component {
   render() {
     // const { url } = this.props.match;
     return (
-      <div className="project-container">
+      <div className='project-container'>
         <strong>Select a Project</strong>
         <br />
-        <ul className="nav-links portfolio-nav-links">
+        <ul className='nav-links portfolio-nav-links'>
           <li>
-            <NavLink to="/projects/datashown">Data Shown</NavLink>
+            <NavLink to='/projects/fivetakeaways'>Five Takeaways</NavLink>
           </li>
           <li>
-            <NavLink to="/projects/ganttchartmaker">Gantt Chart Maker</NavLink>
+            <NavLink to='/projects/ganttchartmaker'>Gantt Chart Maker</NavLink>
           </li>
           <li>
-            <NavLink to="/projects/fivetakeaways">Five Takeaways</NavLink>
+            <NavLink to='/projects/worldmapquiz'>World Map Quiz</NavLink>
           </li>
           <li>
-            <NavLink to="/projects/worldmapquiz">World Map Quiz</NavLink>
+            <NavLink to='/projects/datashown'>Data Shown</NavLink>
           </li>
           <li>
-            <NavLink to="/projects/newsletters">Newsletters.Best</NavLink>
+            <NavLink to='/projects/newsletters'>Newsletters.Best</NavLink>
           </li>
           <li>
-            <NavLink to="/projects/chrome-extensions">
+            <NavLink to='/projects/chrome-extensions'>
               Chrome Extensions
             </NavLink>
           </li>
         </ul>
         {/* <Route path="/projects/:id" component={Project} /> */}
-        <Route exact path="/projects/newsletters" component={Newsletters} />
-        <Route exact path="/projects/chrome-extensions" component={Chrome} />
-        <Route exact path="/projects/ganttchartmaker" component={Gantt} />
-        <Route exact path="/projects/worldmapquiz" component={Map} />
-        <Route exact path="/projects/fivetakeaways" component={Takeaways} />
-        <Route exact path="/projects/datashown" component={Data} />
+        <Route exact path='/projects/newsletters' component={Newsletters} />
+        <Route exact path='/projects/chrome-extensions' component={Chrome} />
+        <Route exact path='/projects/ganttchartmaker' component={Gantt} />
+        <Route exact path='/projects/worldmapquiz' component={Map} />
+        <Route exact path='/projects/fivetakeaways' component={Takeaways} />
+        <Route exact path='/projects/datashown' component={Data} />
       </div>
     );
   }
