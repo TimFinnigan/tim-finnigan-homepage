@@ -52,7 +52,7 @@ const routing = (
                 <Redirect
                     exact
                     from='/projects'
-                    to='/projects/five-takeaways'
+                    to='/projects/learn-code-by-doing'
                 />
                 <Route path='/projects' component={Projects} />
                 <Route path='/principles' component={Principles} />
