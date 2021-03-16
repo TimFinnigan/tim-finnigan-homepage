@@ -7,7 +7,7 @@ class Timeline extends Component {
 				<strong>Timeline</strong>
 				<ul className='timeline'>
 					<li className='timeline-item is-done'>
-						<div className='bold time'>2017-present</div>
+						<div className='bold time'>2017-now</div>
 						<div className='bold'>Software Engineer at Siemens</div>
 						{/* <div>TODO: add more details here...</div> */}
 					</li>
