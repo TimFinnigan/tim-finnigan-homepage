@@ -19,60 +19,79 @@ const Newsletters = ({ match }) => (
 	</div>
 );
 const Chrome = ({ match }) => (
-	<div className='project-description'>
-		<a
-			href='https://chrome.google.com/webstore/detail/hellcneecepjkpoflpdbbeijjkjklepk'
-			target='_blank'
-			rel='noopener noreferrer'
-			className='project-link'
-		>
-			Minimalist Stack Overflow
-		</a>
-		<ul>
-			<li>
-				A minimalist theme to show a clean and simple version of Stack
-				Overflow
-			</li>
-		</ul>
-		<a
-			href='https://chrome.google.com/webstore/detail/plfdidllminimcdbbfmapikbbbdjlbna'
-			target='_blank'
-			rel='noopener noreferrer'
-			className='project-link'
-		>
-			Simple Pomodoro Timer
-		</a>
-		<ul>
-			<li>A simple 25-minute timer to help improve your productivity</li>
-		</ul>
-		<a
-			href='https://chrome.google.com/webstore/detail/gmgpkfaklkchpfbihfligkdgigjicgbc'
-			target='_blank'
-			rel='noopener noreferrer'
-			className='project-link'
-		>
-			Simple To Do List
-		</a>
-		<ul>
-			<li>
-				A customizable and sortable to do list for tracking tasks in
-				your browser
-			</li>
-		</ul>
-		<a
-			href='https://chrome.google.com/webstore/detail/knlhnhhegdjhedaijoiaholkommidbad'
-			target='_blank'
-			rel='noopener noreferrer'
-			className='project-link'
-		>
-			Coder's Toolbox
-		</a>
-		<ul>
-			<li>
-				An extension to help easily access the best resources for coders
-			</li>
-		</ul>
-	</div>
+	<>
+		<div className='project-description'>
+			<a
+				href='https://chrome.google.com/webstore/detail/link-scraper/apdmmebfdjlefbomdafjgbfjipjocdof'
+				target='_blank'
+				rel='noopener noreferrer'
+				className='project-link'
+			>
+				Link Scraper
+			</a>
+			<ul>
+				<li>
+					An extension that gives you the ability to quickly download
+					every link on a webpage.
+				</li>
+			</ul>
+			<a
+				href='https://chrome.google.com/webstore/detail/hellcneecepjkpoflpdbbeijjkjklepk'
+				target='_blank'
+				rel='noopener noreferrer'
+				className='project-link'
+			>
+				Minimalist Stack Overflow
+			</a>
+			<ul>
+				<li>
+					A minimalist theme to show a clean and simple version of
+					Stack Overflow
+				</li>
+			</ul>
+			<a
+				href='https://chrome.google.com/webstore/detail/plfdidllminimcdbbfmapikbbbdjlbna'
+				target='_blank'
+				rel='noopener noreferrer'
+				className='project-link'
+			>
+				Simple Pomodoro Timer
+			</a>
+			<ul>
+				<li>
+					A simple 25-minute timer to help improve your productivity
+				</li>
+			</ul>
+			{/* <a
+				href='https://chrome.google.com/webstore/detail/gmgpkfaklkchpfbihfligkdgigjicgbc'
+				target='_blank'
+				rel='noopener noreferrer'
+				className='project-link'
+			>
+				Simple To Do List
+			</a>
+			<ul>
+				<li>
+					A customizable and sortable to do list for tracking tasks in
+					your browser
+				</li>
+			</ul> */}
+			<a
+				href='https://chrome.google.com/webstore/detail/knlhnhhegdjhedaijoiaholkommidbad'
+				target='_blank'
+				rel='noopener noreferrer'
+				className='project-link'
+			>
+				Coder's Toolbox
+			</a>
+			<ul>
+				<li>
+					An extension to help easily access the best resources for
+					coders
+				</li>
+			</ul>
+		</div>
+	</>
 );
 const Data = ({ match }) => (
 	<div className='project-description'>
@@ -159,7 +178,7 @@ const LearnCodeByDoing = ({ match }) => (
 		<ul>
 			<li>A blog featuring code tutorials on various topics</li>
 			<li>Posts focus on areas such as web-scraping and APIs</li>
-			<li>Build with React</li>
+			<li>Built with React</li>
 		</ul>
 	</div>
 );
