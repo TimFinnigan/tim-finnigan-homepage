@@ -7,13 +7,19 @@ class Timeline extends Component {
 				<strong>Timeline</strong>
 				<ul className='timeline'>
 					<li className='timeline-item is-done'>
-						<div className='bold time'>2017-now</div>
+						<div className='bold time'>2021-now</div>
+						<div className='bold'>
+							Developer Support Engineer at AWS
+						</div>
+					</li>
+					<li className='timeline-item is-done'>
+						<div className='bold time'>2017-21</div>
 						<div className='bold'>Software Engineer at Siemens</div>
 						{/* <div>TODO: add more details here...</div> */}
 					</li>
 					<li className='timeline-item is-done'>
 						<div className='bold time'>2017</div>
-						<div className='bold'>Earned Masters Degree</div>
+						<div className='bold'>Earned Masters Degree (M.S.)</div>
 					</li>
 					<li className='timeline-item is-done'>
 						<div className='bold time'>2016</div>
@@ -21,7 +27,7 @@ class Timeline extends Component {
 					</li>
 					<li className='timeline-item is-done'>
 						<div className='bold time'>2015</div>
-						<div className='bold'>Worked at Startups</div>
+						<div className='bold'>Worked at Tech Startups</div>
 					</li>
 					<li className='timeline-item is-done'>
 						<div className='bold time'>2013-14</div>
