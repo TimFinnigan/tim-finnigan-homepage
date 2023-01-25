@@ -76,7 +76,7 @@ const Chrome = ({ match }) => (
 					your browser
 				</li>
 			</ul> */}
-			<a
+			{/* <a
 				href='https://chrome.google.com/webstore/detail/knlhnhhegdjhedaijoiaholkommidbad'
 				target='_blank'
 				rel='noopener noreferrer'
@@ -89,7 +89,7 @@ const Chrome = ({ match }) => (
 					An extension to help easily access the best resources for
 					coders
 				</li>
-			</ul>
+			</ul> */}
 		</div>
 	</>
 );
@@ -183,6 +183,30 @@ const LearnCodeByDoing = ({ match }) => (
 	</div>
 );
 
+const Frontier = ({ match }) => (
+	<div className='project-description'>
+		<a
+			href='https://www.thefrontier.ai/'
+			target='_blank'
+			rel='noopener noreferrer'
+			className='project-link'
+		>
+			https://thefrontier.ai
+		</a>
+		<ul>
+			<li>
+				A newsletter covering compelling topics related to Artificial
+				Intelligence
+			</li>
+			<li>
+				Synthesizes various insights and media into different themes
+				covering AI developments
+			</li>
+			<li>Built with Substack</li>
+		</ul>
+	</div>
+);
+
 class Projects extends React.Component {
 	render() {
 		// const { url } = this.props.match;
@@ -191,6 +215,11 @@ class Projects extends React.Component {
 				<strong>Select a Project</strong>
 				<br />
 				<ul className='nav-links portfolio-nav-links'>
+					<li>
+						<NavLink to='/projects/the-frontier'>
+							The Frontier
+						</NavLink>
+					</li>
 					<li>
 						<NavLink to='/projects/learn-code-by-doing'>
 							Learn Code By Doing
@@ -201,16 +230,17 @@ class Projects extends React.Component {
 							Five Takeaways
 						</NavLink>
 					</li>
-					<li>
+					{/* <li>
 						<NavLink to='/projects/gantt-chart-maker'>
 							Gantt Chart Maker
 						</NavLink>
-					</li>
+					</li> */}
 					<li>
 						<NavLink to='/projects/world-map-quiz'>
 							World Map Quiz
 						</NavLink>
 					</li>
+
 					{/* <li>
             <NavLink to='/projects/data-shown'>Data Shown</NavLink>
           </li> */}
@@ -251,6 +281,11 @@ class Projects extends React.Component {
 					exact
 					path='/projects/five-takeaways'
 					component={Takeaways}
+				/>
+				<Route
+					exact
+					path='/projects/the-frontier'
+					component={Frontier}
 				/>
 				<Route exact path='/projects/data-shown' component={Data} />
 			</div>
