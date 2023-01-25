@@ -60,9 +60,9 @@ class App extends React.Component {
             </a> */}
 						{/* <a>Resume</a> */}
 					</span>
-					<strong>Email</strong>
+					{/* <strong>Email</strong>
 					<br />
-					<span>tim.finnigan1@gmail.com</span>
+					<span>tim.finnigan1@gmail.com</span> */}
 				</span>
 				<Timeline />
 			</div>
