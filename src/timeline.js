@@ -19,7 +19,9 @@ class Timeline extends Component {
 					</li>
 					<li className='timeline-item is-done'>
 						<div className='bold time'>2017</div>
-						<div className='bold'>Earned Masters Degree (M.S.)</div>
+						<div className='bold'>
+							Earned Masters Degree in Information Systems
+						</div>
 					</li>
 					<li className='timeline-item is-done'>
 						<div className='bold time'>2016</div>

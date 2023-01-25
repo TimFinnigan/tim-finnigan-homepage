@@ -207,6 +207,30 @@ const Frontier = ({ match }) => (
 	</div>
 );
 
+const PromptSpells = ({ match }) => (
+	<div className='project-description'>
+		<a
+			href='https://promptspells.com/'
+			target='_blank'
+			rel='noopener noreferrer'
+			className='project-link'
+		>
+			https://promptspells.com
+		</a>
+		<ul>
+			<li>
+				An application for writing compelling prompts to use in
+				generative AI applications
+			</li>
+			<li>
+				Various artistic elements are combined to create powerful
+				visuals
+			</li>
+			<li>Built with React</li>
+		</ul>
+	</div>
+);
+
 class Projects extends React.Component {
 	render() {
 		// const { url } = this.props.match;
@@ -215,6 +239,11 @@ class Projects extends React.Component {
 				<strong>Select a Project</strong>
 				<br />
 				<ul className='nav-links portfolio-nav-links'>
+					<li>
+						<NavLink to='/projects/prompt-spells'>
+							Prompt Spells
+						</NavLink>
+					</li>
 					<li>
 						<NavLink to='/projects/the-frontier'>
 							The Frontier
@@ -266,11 +295,11 @@ class Projects extends React.Component {
 					path='/projects/chrome-extensions'
 					component={Chrome}
 				/>
-				<Route
+				{/* <Route
 					exact
 					path='/projects/gantt-chart-maker'
 					component={Gantt}
-				/>
+				/> */}
 				<Route exact path='/projects/world-map-quiz' component={Map} />
 				<Route
 					exact
@@ -287,7 +316,12 @@ class Projects extends React.Component {
 					path='/projects/the-frontier'
 					component={Frontier}
 				/>
-				<Route exact path='/projects/data-shown' component={Data} />
+				<Route
+					exact
+					path='/projects/prompt-spells'
+					component={PromptSpells}
+				/>
+				{/* <Route exact path='/projects/data-shown' component={Data} /> */}
 			</div>
 		);
 	}
