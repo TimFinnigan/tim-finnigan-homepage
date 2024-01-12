@@ -38,7 +38,7 @@ class App extends React.Component {
 					<br />
 					<span id='portfolio-links'>
 						<a
-							href='https://github.com/TimFinnigan'
+							href='https://github.com/tim-finnigan'
 							target='_blank'
 							rel='noopener noreferrer'
 						>

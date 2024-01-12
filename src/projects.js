@@ -35,7 +35,7 @@ const Chrome = ({ match }) => (
 					every link on a webpage.
 				</li>
 			</ul>
-			<a
+			{/* <a
 				href='https://chrome.google.com/webstore/detail/hellcneecepjkpoflpdbbeijjkjklepk'
 				target='_blank'
 				rel='noopener noreferrer'
@@ -48,7 +48,7 @@ const Chrome = ({ match }) => (
 					A minimalist theme to show a clean and simple version of
 					Stack Overflow
 				</li>
-			</ul>
+			</ul> */}
 			<a
 				href='https://chrome.google.com/webstore/detail/plfdidllminimcdbbfmapikbbbdjlbna'
 				target='_blank'
@@ -240,16 +240,6 @@ class Projects extends React.Component {
 				<br />
 				<ul className='nav-links portfolio-nav-links'>
 					<li>
-						<NavLink to='/projects/prompt-spells'>
-							Prompt Spells
-						</NavLink>
-					</li>
-					<li>
-						<NavLink to='/projects/the-frontier'>
-							The Frontier
-						</NavLink>
-					</li>
-					<li>
 						<NavLink to='/projects/learn-code-by-doing'>
 							Learn Code By Doing
 						</NavLink>
@@ -311,7 +301,7 @@ class Projects extends React.Component {
 					path='/projects/five-takeaways'
 					component={Takeaways}
 				/>
-				<Route
+				{/* <Route
 					exact
 					path='/projects/the-frontier'
 					component={Frontier}
@@ -320,7 +310,7 @@ class Projects extends React.Component {
 					exact
 					path='/projects/prompt-spells'
 					component={PromptSpells}
-				/>
+				/> */}
 				{/* <Route exact path='/projects/data-shown' component={Data} /> */}
 			</div>
 		);

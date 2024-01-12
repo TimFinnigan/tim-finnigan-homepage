@@ -49,7 +49,7 @@ const routing = (
 			</ul>
 			<Switch>
 				<Route exact path='/' component={App} />
-				<Redirect exact from='/projects' to='/projects/prompt-spells' />
+				<Redirect exact from='/projects' to='/projects/learn-code-by-doing' />
 				<Route path='/projects' component={Projects} />
 				<Route path='/principles' component={Principles} />
 				<Route path='/goals' component={Goals} />
