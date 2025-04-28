@@ -266,22 +266,10 @@ const projectGroups = {
 	],
 	'Web Applications': [
 		{
-			title: 'Newsletters.best',
-			description: 'A curated list of the best online newsletters with responsive table and dynamic filtering',
-			link: 'https://newsletters.best',
-			icon: '📧'
-		},
-		{
-			title: 'DataShown',
-			description: 'Visual essays covering business analytics and trends',
-			link: 'https://datashown.com',
-			icon: '📊'
-		},
-		{
-			title: 'Gantt Chart Maker',
-			description: 'A tool for easily creating Gantt charts to help managers estimate developer schedules',
-			link: 'https://ganttchartmaker.com',
-			icon: '📅'
+			title: 'Color Core',
+			description: 'A modern color palette generator and manager for designers and developers',
+			link: 'https://timfinnigan.github.io/color-core/',
+			icon: '🎨'
 		},
 		{
 			title: 'World Map Quiz',
