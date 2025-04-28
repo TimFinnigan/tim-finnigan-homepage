@@ -7,7 +7,13 @@ class Timeline extends Component {
 				<strong>Timeline</strong>
 				<ul className='timeline'>
 					<li className='timeline-item is-done'>
-						<div className='bold time'>2021-now</div>
+						<div className='bold time'>2025-now</div>
+						<div className='bold'>
+							Software Engineer at AWS - Open Source
+						</div>
+					</li>
+					<li className='timeline-item is-done'>
+						<div className='bold time'>2021-2024</div>
 						<div className='bold'>
 							Developer Support Engineer at AWS
 						</div>
