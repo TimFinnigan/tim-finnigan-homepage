@@ -12,23 +12,22 @@ class App extends React.Component {
 						to learn.
 					</p>
 					<p>
-						I enjoy building interactive dashboards and data
-						visualizations.
+						Interested in using AI to build better software.
 					</p>
 					<strong>Skills</strong>
 					<br />
 					<ul className='skills'>
+						<li>AWS</li>
+						<li>Python</li>
 						<li>JavaScript</li>
 						<li>HTML</li>
 						<li>CSS</li>
-						<li>Angular</li>
 						<li>React</li>
-						<li>Node.js</li>
 					</ul>
 					<ul className='skills'>
+						<li>Angular</li>
+						<li>Node.js</li>
 						<li>SQL</li>
-						<li>Python</li>
-						<li>AWS</li>
 						<li>Tableau</li>
 						<li>Highcharts</li>
 						<li>Chart.js</li>
