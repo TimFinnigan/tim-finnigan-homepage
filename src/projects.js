@@ -234,6 +234,24 @@ const PromptSpells = ({ match }) => (
 const projectGroups = {
 	'Chrome Extensions': [
 		{
+			title: 'Multi AI Prompter',
+			description: 'Compare responses from different AI chatbots side-by-side in a convenient split-screen view',
+			link: 'https://chromewebstore.google.com/detail/multi-ai-prompter/ofcmkfknkfadepedefhcjamookaefmdh',
+			icon: '🤖'
+		},
+		{
+			title: 'Prompt Bank',
+			description: 'Save and organize your ChatGPT prompts in an elegant sidebar for quick access',
+			link: 'https://chromewebstore.google.com/detail/prompt-bank/kdedonmmhnfdcgdnippppjpcbogfhjic',
+			icon: '🏦'
+		},
+		{
+			title: 'Transcript Pro',
+			description: 'Instantly search for words and view transcripts in YouTube videos, saving time by jumping directly to content',
+			link: 'https://chromewebstore.google.com/detail/transcript-pro/hencphkahebnmpiocnbjeojmpmiafpfc',
+			icon: '📝'
+		},
+		{
 			title: 'Link Scraper',
 			description: 'An extension that gives you the ability to quickly download every link on a webpage.',
 			link: 'https://chrome.google.com/webstore/detail/link-scraper/apdmmebfdjlefbomdafjgbfjipjocdof',
