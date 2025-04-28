@@ -231,87 +231,115 @@ const PromptSpells = ({ match }) => (
 	</div>
 );
 
+const projectGroups = {
+	'Chrome Extensions': [
+		{
+			title: 'Link Scraper',
+			description: 'An extension that gives you the ability to quickly download every link on a webpage.',
+			link: 'https://chrome.google.com/webstore/detail/link-scraper/apdmmebfdjlefbomdafjgbfjipjocdof',
+			icon: '🔗'
+		},
+		{
+			title: 'Simple Pomodoro Timer',
+			description: 'A simple 25-minute timer to help improve your productivity',
+			link: 'https://chrome.google.com/webstore/detail/plfdidllminimcdbbfmapikbbbdjlbna',
+			icon: '⏱️'
+		}
+	],
+	'Web Applications': [
+		{
+			title: 'Newsletters.best',
+			description: 'A curated list of the best online newsletters with responsive table and dynamic filtering',
+			link: 'https://newsletters.best',
+			icon: '📧'
+		},
+		{
+			title: 'DataShown',
+			description: 'Visual essays covering business analytics and trends',
+			link: 'https://datashown.com',
+			icon: '📊'
+		},
+		{
+			title: 'Gantt Chart Maker',
+			description: 'A tool for easily creating Gantt charts to help managers estimate developer schedules',
+			link: 'https://ganttchartmaker.com',
+			icon: '📅'
+		},
+		{
+			title: 'World Map Quiz',
+			description: 'Guessing game to help learn geography with random country selection',
+			link: 'https://worldmapquiz.com',
+			icon: '🌍'
+		},
+		{
+			title: 'Prompt Spells',
+			description: 'An application for writing compelling prompts to use in generative AI applications',
+			link: 'https://promptspells.com',
+			icon: '✨'
+		}
+	],
+	'Content & Learning': [
+		{
+			title: 'Five Takeaways',
+			description: 'Highlights key takeaways from influential books on business, self-development, and technology',
+			link: 'https://fivetakeaways.com',
+			icon: '📚'
+		},
+		{
+			title: 'Learn Code By Doing',
+			description: 'A blog featuring code tutorials on web-scraping, APIs, and more',
+			link: 'https://learncodebydoing.com',
+			icon: '💻'
+		},
+		{
+			title: 'The Frontier',
+			description: 'A newsletter covering compelling topics related to Artificial Intelligence',
+			link: 'https://www.thefrontier.ai/',
+			icon: '🤖'
+		}
+	]
+};
+
+const ProjectCard = ({ project }) => (
+	<div className="project-card">
+		<div className="project-icon">{project.icon}</div>
+		<h3>{project.title}</h3>
+		<p>{project.description}</p>
+		<a 
+			href={project.link} 
+			target="_blank" 
+			rel="noopener noreferrer" 
+			className="project-link"
+		>
+			View Project →
+		</a>
+	</div>
+);
+
+const ProjectGroup = ({ title, projects }) => (
+	<div className="project-group">
+		<h2>{title}</h2>
+		<div className="project-grid">
+			{projects.map((project, index) => (
+				<ProjectCard key={index} project={project} />
+			))}
+		</div>
+	</div>
+);
+
 class Projects extends React.Component {
 	render() {
 		// const { url } = this.props.match;
 		return (
-			<div className='project-container'>
-				<strong>Select a Project</strong>
-				<br />
-				<ul className='nav-links portfolio-nav-links'>
-					<li>
-						<NavLink to='/projects/learn-code-by-doing'>
-							Learn Code By Doing
-						</NavLink>
-					</li>
-					<li>
-						<NavLink to='/projects/five-takeaways'>
-							Five Takeaways
-						</NavLink>
-					</li>
-					{/* <li>
-						<NavLink to='/projects/gantt-chart-maker'>
-							Gantt Chart Maker
-						</NavLink>
-					</li> */}
-					<li>
-						<NavLink to='/projects/world-map-quiz'>
-							World Map Quiz
-						</NavLink>
-					</li>
-
-					{/* <li>
-            <NavLink to='/projects/data-shown'>Data Shown</NavLink>
-          </li> */}
-					{/* <li>
-                        <NavLink to='/projects/newsletters-best'>
-                            Newsletters.Best
-                        </NavLink>
-                    </li> */}
-					<li>
-						<NavLink to='/projects/chrome-extensions'>
-							Chrome Extensions
-						</NavLink>
-					</li>
-				</ul>
-				{/* <Route path="/projects/:id" component={Project} /> */}
-				<Route
-					exact
-					path='/projects/newsletters-best'
-					component={Newsletters}
-				/>
-				<Route
-					exact
-					path='/projects/chrome-extensions'
-					component={Chrome}
-				/>
-				{/* <Route
-					exact
-					path='/projects/gantt-chart-maker'
-					component={Gantt}
-				/> */}
-				<Route exact path='/projects/world-map-quiz' component={Map} />
-				<Route
-					exact
-					path='/projects/learn-code-by-doing'
-					component={LearnCodeByDoing}
-				/>
-				<Route
-					exact
-					path='/projects/five-takeaways'
-					component={Takeaways}
-				/>
-				{/* <Route
-					exact
-					path='/projects/the-frontier'
-					component={Frontier}
-				/>
-				<Route
-					exact
-					path='/projects/prompt-spells'
-					component={PromptSpells}
-				/> */}
-				{/* <Route exact path='/projects/data-shown' component={Data} /> */}
+			<div className="projects-container">
+				<h1>Projects</h1>
+				{Object.entries(projectGroups).map(([groupTitle, projects]) => (
+					<ProjectGroup 
+						key={groupTitle} 
+						title={groupTitle} 
+						projects={projects} 
+					/>
+				))}
 			</div>
 		);
 	}
