@@ -284,6 +284,26 @@ const projectGroups = {
 			icon: '✨'
 		}
 	],
+	'Mobile Apps': [
+		{
+			title: 'Jumbles Daily',
+			description: 'Daily word jumbles game that challenges and enhances cognitive skills',
+			link: 'https://apps.apple.com/us/app/jumbles-daily/id6478874178',
+			icon: '💬'
+		},
+		{
+			title: 'Painting Puzzles',
+			description: 'Learn art history while solving beautiful portrait puzzles',
+			link: 'https://apps.apple.com/tn/app/painting-puzzles/id6743689185',
+			icon: '🧩'
+		},
+		{
+			title: 'Block Road',
+			description: 'Fast-paced obstacle avoidance game that tests your reflexes',
+			link: 'https://apps.apple.com/tn/app/block-road/id6743721349',
+			icon: '🟩'
+		}
+	],
 	'Content & Learning': [
 		{
 			title: 'Five Takeaways',
