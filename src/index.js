@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import {
-	Redirect,
 	Route,
 	NavLink,
 	BrowserRouter as Router,
@@ -21,13 +20,6 @@ import About from './about';
 import Todo from './todo';
 import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
 
 const routing = (
 	<Router>
@@ -49,16 +41,12 @@ const routing = (
 			</ul>
 			<Switch>
 				<Route exact path='/' component={App} />
-				<Redirect exact from='/projects' to='/projects/learn-code-by-doing' />
-				<Route path='/projects' component={Projects} />
+				<Route exact path='/projects' component={Projects} />
 				<Route path='/principles' component={Principles} />
 				<Route path='/goals' component={Goals} />
 				<Route path='/quotes' component={Quotes} />
 				<Route path='/ideas' component={Ideas} />
-				<Route
-					path='/project-post-mortems'
-					component={ProjectPostMortems}
-				/>
+				<Route path='/project-post-mortems' component={ProjectPostMortems} />
 				<Route path='/learncodebydoing' component={LearnCodeByDoing} />
 				<Route path='/about' component={About} />
 				<Route path='/todo' component={Todo} />
@@ -68,4 +56,10 @@ const routing = (
 		</div>
 	</Router>
 );
+
 ReactDOM.render(routing, document.getElementById('root'));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
