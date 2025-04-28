@@ -272,16 +272,16 @@ const projectGroups = {
 			icon: '🎨'
 		},
 		{
-			title: 'World Map Quiz',
-			description: 'Guessing game to help learn geography with random country selection',
-			link: 'https://worldmapquiz.com',
-			icon: '🌍'
-		},
-		{
 			title: 'Prompt Spells',
 			description: 'An application for writing compelling prompts to use in generative AI applications',
 			link: 'https://promptspells.com',
 			icon: '✨'
+		},
+		{
+			title: 'World Map Quiz',
+			description: 'Guessing game to help learn geography with random country selection',
+			link: 'https://worldmapquiz.com',
+			icon: '🌍'
 		}
 	],
 	'Mobile Apps': [
@@ -305,6 +305,12 @@ const projectGroups = {
 		}
 	],
 	'Content & Learning': [
+		{
+			title: 'Pod Gems',
+			description: 'A newsletter sharing insights and key takeaways from podcasts',
+			link: 'https://www.podgems.com/',
+			icon: '🎙️'
+		},
 		{
 			title: 'Five Takeaways',
 			description: 'Highlights key takeaways from influential books on business, self-development, and technology',
