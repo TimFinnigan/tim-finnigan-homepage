@@ -5,91 +5,106 @@ const allProjects = [
 		title: 'Multi AI Prompter',
 		description: 'Compare responses from different AI chatbots side-by-side',
 		link: 'https://chromewebstore.google.com/detail/multi-ai-prompter/ofcmkfknkfadepedefhcjamookaefmdh',
-		tags: ['Chrome', 'AI', 'Productivity']
+		tags: ['Chrome', 'AI', 'Productivity'],
+		icon: 'fa-solid fa-robot'
 	},
 	{
 		title: 'Prompt Bank',
 		description: 'Save and organize ChatGPT prompts for quick access',
 		link: 'https://chromewebstore.google.com/detail/prompt-bank/kdedonmmhnfdcgdnippppjpcbogfhjic',
-		tags: ['Chrome', 'AI', 'Productivity']
+		tags: ['Chrome', 'AI', 'Productivity'],
+		icon: 'fa-solid fa-database'
 	},
 	{
 		title: 'Transcript Pro',
 		description: 'Search words in YouTube transcripts and jump to content',
 		link: 'https://chromewebstore.google.com/detail/transcript-pro/hencphkahebnmpiocnbjeojmpmiafpfc',
-		tags: ['Chrome', 'Productivity', 'YouTube']
+		tags: ['Chrome', 'Productivity', 'YouTube'],
+		icon: 'fa-solid fa-closed-captioning'
 	},
 	{
 		title: 'Link Scraper',
 		description: 'Quickly download every link on a webpage',
 		link: 'https://chrome.google.com/webstore/detail/link-scraper/apdmmebfdjlefbomdafjgbfjipjocdof',
-		tags: ['Chrome', 'Utility']
+		tags: ['Chrome', 'Utility'],
+		icon: 'fa-solid fa-link'
 	},
 	{
 		title: 'Simple Pomodoro Timer',
 		description: '25-minute timer to improve productivity',
 		link: 'https://chrome.google.com/webstore/detail/plfdidllminimcdbbfmapikbbbdjlbna',
-		tags: ['Chrome', 'Productivity']
+		tags: ['Chrome', 'Productivity'],
+		icon: 'fa-solid fa-clock'
 	},
 	{
 		title: 'Color Core',
 		description: 'Modern color palette generator for designers',
 		link: 'https://timfinnigan.github.io/color-core/',
-		tags: ['Web App', 'Design', 'React']
+		tags: ['Web App', 'Design', 'React'],
+		icon: 'fa-solid fa-palette'
 	},
 	{
 		title: 'Prompt Spells',
 		description: 'Write compelling prompts for generative AI',
 		link: 'https://promptspells.com',
-		tags: ['Web App', 'AI', 'React']
+		tags: ['Web App', 'AI', 'React'],
+		icon: 'fa-solid fa-wand-magic-sparkles'
 	},
 	{
 		title: 'World Map Quiz',
 		description: 'Geography guessing game with random countries',
 		link: 'https://worldmapquiz.com',
-		tags: ['Web App', 'Education', 'Game']
+		tags: ['Web App', 'Education', 'Game'],
+		icon: 'fa-solid fa-globe'
 	},
 	{
 		title: 'Jumbles Daily',
 		description: 'Daily word jumbles to enhance cognitive skills',
 		link: 'https://apps.apple.com/us/app/jumbles-daily/id6478874178',
-		tags: ['iOS', 'Game', 'Education']
+		tags: ['iOS', 'Game', 'Education'],
+		icon: 'fa-solid fa-font'
 	},
 	{
 		title: 'Painting Puzzles',
 		description: 'Learn art history through portrait puzzles',
 		link: 'https://apps.apple.com/tn/app/painting-puzzles/id6743689185',
-		tags: ['iOS', 'Game', 'Art']
+		tags: ['iOS', 'Game', 'Art'],
+		icon: 'fa-solid fa-palette'
 	},
 	{
 		title: 'Block Road',
 		description: 'Fast-paced obstacle avoidance game',
 		link: 'https://apps.apple.com/tn/app/block-road/id6743721349',
-		tags: ['iOS', 'Game']
+		tags: ['iOS', 'Game'],
+		icon: 'fa-solid fa-road'
 	},
 	{
 		title: 'Pod Gems',
 		description: 'Newsletter sharing insights from podcasts',
 		link: 'https://www.podgems.com/',
-		tags: ['Newsletter', 'Content']
+		tags: ['Newsletter', 'Content'],
+		icon: 'fa-solid fa-microphone'
 	},
 	{
 		title: 'Five Takeaways',
 		description: 'Key takeaways from influential books',
 		link: 'https://fivetakeaways.com',
-		tags: ['Web App', 'Content', 'React']
+		tags: ['Web App', 'Content', 'React'],
+		icon: 'fa-solid fa-book'
 	},
 	{
 		title: 'Learn Code By Doing',
 		description: 'Code tutorials on web-scraping and APIs',
 		link: 'https://learncodebydoing.com',
-		tags: ['Blog', 'Education', 'React']
+		tags: ['Blog', 'Education', 'React'],
+		icon: 'fa-solid fa-code'
 	},
 	{
 		title: 'The Frontier',
 		description: 'Newsletter covering AI developments',
 		link: 'https://www.thefrontier.ai/',
-		tags: ['Newsletter', 'AI', 'Content']
+		tags: ['Newsletter', 'AI', 'Content'],
+		icon: 'fa-solid fa-rocket'
 	}
 ];
 
@@ -102,7 +117,10 @@ const ProjectCard = ({ project }) => (
 	>
 		<div className="project-card-minimal">
 			<div className="project-card-content">
-				<h3 className="project-title">{project.title}</h3>
+				<h3 className="project-title">
+					<i className={`${project.icon} project-icon`}></i>
+					{project.title}
+				</h3>
 				<p className="project-description">{project.description}</p>
 			</div>
 			<div className="project-tags">
