@@ -37,6 +37,13 @@ const allProjects = [
 		icon: 'fa-solid fa-clock'
 	},
 	{
+		title: 'Vibe Films',
+		description: 'Discover films based on your mood and preferences',
+		link: 'https://timfinnigan.github.io/vibe-films/',
+		tags: ['Web App', 'Entertainment', 'AI'],
+		icon: 'fa-solid fa-film'
+	},
+	{
 		title: 'Color Core',
 		description: 'Modern color palette generator for designers',
 		link: 'https://timfinnigan.github.io/color-core/',
