@@ -37,6 +37,13 @@ const allProjects = [
 		icon: 'fa-solid fa-clock'
 	},
 	{
+		title: 'Trip to PDF',
+		description: 'Convert your trip itineraries into beautiful PDF documents',
+		link: 'https://trip-to-pdf.streamlit.app/',
+		tags: ['Web App', 'Utility', 'Travel'],
+		icon: 'fa-solid fa-file-pdf'
+	},
+	{
 		title: 'Vibe Films',
 		description: 'Discover films based on your mood and preferences',
 		link: 'https://timfinnigan.github.io/vibe-films/',
@@ -53,14 +60,14 @@ const allProjects = [
 	{
 		title: 'Prompt Spells',
 		description: 'Write compelling prompts for generative AI',
-		link: 'https://promptspells.com',
+		link: 'https://timfinnigan.github.io/prompt-spells/',
 		tags: ['Web App', 'AI', 'React'],
 		icon: 'fa-solid fa-wand-magic-sparkles'
 	},
 	{
 		title: 'World Map Quiz',
 		description: 'Geography guessing game with random countries',
-		link: 'https://worldmapquiz.com',
+		link: 'https://timfinnigan.github.io/world-map-quiz/',
 		tags: ['Web App', 'Education', 'Game'],
 		icon: 'fa-solid fa-globe'
 	},
