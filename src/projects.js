@@ -65,6 +65,13 @@ const allProjects = [
 		icon: 'fa-solid fa-wand-magic-sparkles'
 	},
 	{
+		title: 'Drum Looper',
+		description: 'Create and play drum beats with customizable patterns',
+		link: 'https://timfinnigan.github.io/drum-looper-v2/',
+		tags: ['Web App', 'Music', 'React'],
+		icon: 'fa-solid fa-drum'
+	},
+	{
 		title: 'World Map Quiz',
 		description: 'Geography guessing game with random countries',
 		link: 'https://timfinnigan.github.io/world-map-quiz/',
