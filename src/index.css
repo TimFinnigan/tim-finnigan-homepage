@@ -364,7 +364,7 @@ code {
 /* Projects Page Styles - Minimalist */
 .projects-container-minimal {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0;
   padding: 1.5rem 1rem;
 }
 
