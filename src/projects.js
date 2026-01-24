@@ -72,6 +72,13 @@ const allProjects = [
 		icon: 'fa-solid fa-drum'
 	},
 	{
+		title: 'Cognitive Biases Explorer',
+		description: 'Explore systematic patterns in thinking and decision-making',
+		link: 'https://timfinnigan.github.io/cognitive-biases-explorer/',
+		tags: ['Web App', 'Education', 'React'],
+		icon: 'fa-solid fa-brain'
+	},
+	{
 		title: 'World Map Quiz',
 		description: 'Geography guessing game with random countries',
 		link: 'https://timfinnigan.github.io/world-map-quiz/',
