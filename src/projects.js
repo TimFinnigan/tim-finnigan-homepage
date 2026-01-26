@@ -19,7 +19,7 @@ const allProjects = [
 		title: 'Transcript Pro',
 		description: 'Search words in YouTube transcripts and jump to content',
 		link: 'https://chromewebstore.google.com/detail/transcript-pro/hencphkahebnmpiocnbjeojmpmiafpfc',
-		tags: ['Chrome', 'Productivity', 'YouTube'],
+		tags: ['Chrome', 'Productivity'],
 		icon: 'fa-solid fa-closed-captioning'
 	},
 	{
@@ -28,6 +28,13 @@ const allProjects = [
 		link: 'https://chrome.google.com/webstore/detail/link-scraper/apdmmebfdjlefbomdafjgbfjipjocdof',
 		tags: ['Chrome', 'Utility'],
 		icon: 'fa-solid fa-link'
+	},
+	{
+		title: 'Cognitive Biases Explorer',
+		description: 'Explore systematic patterns in thinking and decision-making',
+		link: 'https://timfinnigan.github.io/cognitive-biases-explorer/',
+		tags: ['Web App', 'Education'],
+		icon: 'fa-solid fa-brain'
 	},
 	{
 		title: 'Simple Pomodoro Timer',
@@ -40,43 +47,36 @@ const allProjects = [
 		title: 'Trip to PDF',
 		description: 'Convert your trip itineraries into beautiful PDF documents',
 		link: 'https://trip-to-pdf.streamlit.app/',
-		tags: ['Web App', 'Utility', 'Travel'],
+		tags: ['Web App', 'Utility'],
 		icon: 'fa-solid fa-file-pdf'
 	},
 	{
 		title: 'Vibe Films',
 		description: 'Discover films based on your mood and preferences',
 		link: 'https://timfinnigan.github.io/vibe-films/',
-		tags: ['Web App', 'Entertainment', 'AI'],
+		tags: ['Web App', 'AI'],
 		icon: 'fa-solid fa-film'
 	},
 	{
 		title: 'Color Core',
 		description: 'Modern color palette generator for designers',
 		link: 'https://timfinnigan.github.io/color-core/',
-		tags: ['Web App', 'Design', 'React'],
+		tags: ['Web App'],
 		icon: 'fa-solid fa-palette'
 	},
 	{
 		title: 'Prompt Spells',
 		description: 'Write compelling prompts for generative AI',
 		link: 'https://timfinnigan.github.io/prompt-spells/',
-		tags: ['Web App', 'AI', 'React'],
+		tags: ['Web App', 'AI'],
 		icon: 'fa-solid fa-wand-magic-sparkles'
 	},
 	{
 		title: 'Drum Looper',
 		description: 'Create and play drum beats with customizable patterns',
 		link: 'https://timfinnigan.github.io/drum-looper-v2/',
-		tags: ['Web App', 'Music', 'React'],
+		tags: ['Web App', 'Music'],
 		icon: 'fa-solid fa-drum'
-	},
-	{
-		title: 'Cognitive Biases Explorer',
-		description: 'Explore systematic patterns in thinking and decision-making',
-		link: 'https://timfinnigan.github.io/cognitive-biases-explorer/',
-		tags: ['Web App', 'Education', 'React'],
-		icon: 'fa-solid fa-brain'
 	},
 	{
 		title: 'World Map Quiz',
@@ -96,7 +96,7 @@ const allProjects = [
 		title: 'Painting Puzzles',
 		description: 'Learn art history through portrait puzzles',
 		link: 'https://apps.apple.com/tn/app/painting-puzzles/id6743689185',
-		tags: ['iOS', 'Game', 'Art'],
+		tags: ['iOS', 'Game'],
 		icon: 'fa-solid fa-palette'
 	},
 	{
@@ -110,28 +110,28 @@ const allProjects = [
 		title: 'Pod Gems',
 		description: 'Newsletter sharing insights from podcasts',
 		link: 'https://www.podgems.com/',
-		tags: ['Newsletter', 'Content'],
+		tags: ['Newsletter'],
 		icon: 'fa-solid fa-microphone'
 	},
 	{
 		title: 'Five Takeaways',
 		description: 'Key takeaways from influential books',
 		link: 'https://fivetakeaways.com',
-		tags: ['Web App', 'Content', 'React'],
+		tags: ['Web App'],
 		icon: 'fa-solid fa-book'
 	},
 	{
 		title: 'Learn Code By Doing',
 		description: 'Code tutorials on web-scraping and APIs',
 		link: 'https://learncodebydoing.com',
-		tags: ['Blog', 'Education', 'React'],
+		tags: ['Education'],
 		icon: 'fa-solid fa-code'
 	},
 	{
 		title: 'The Frontier',
 		description: 'Newsletter covering AI developments',
 		link: 'https://www.thefrontier.ai/',
-		tags: ['Newsletter', 'AI', 'Content'],
+		tags: ['Newsletter', 'AI'],
 		icon: 'fa-solid fa-rocket'
 	}
 ];

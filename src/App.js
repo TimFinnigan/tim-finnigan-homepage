@@ -11,23 +11,22 @@ class App extends React.Component {
 						A curious and efficient software engineer who enjoys solving problems and working with others. Always learning, always improving, and excited about using AI to build better software.
 					</p>
 
-					<strong>Skills</strong>
-					<div>
-						<ul className='skills'>
-							<li>AWS</li>
-							<li>Python</li>
-							<li>JavaScript</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>React</li>
-							<li>Angular</li>
-							<li>Node.js</li>
-							<li>SQL</li>
-							<li>Tableau</li>
-							<li>Highcharts</li>
-							<li>Chart.js</li>
-						</ul>
-					</div>
+				<strong>Skills</strong>
+				<div>
+					<ul className='skills'>
+						<li>AWS</li>
+						<li>Python</li>
+						<li>JavaScript</li>
+						<li>HTML/CSS</li>
+						<li>React</li>
+						<li>Angular</li>
+						<li>Node.js</li>
+						<li>SQL</li>
+						<li>Data Visualization</li>
+						<li>OpenAI</li>
+						<li>Claude</li>
+					</ul>
+				</div>
 
 					<strong>Links</strong>
 					<div id='portfolio-links'>
