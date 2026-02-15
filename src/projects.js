@@ -2,6 +2,13 @@ import React, { useState } from 'react';
 
 const allProjects = [
 	{
+		title: 'Oyster Bot',
+		description: 'AI assistant for Telegram that integrates Claude CLI for conversational AI from your phone',
+		link: 'https://github.com/TimFinnigan/oyster-bot',
+		tags: ['AI', 'Utility'],
+		icon: 'fa-solid fa-comment-dots'
+	},
+	{
 		title: 'Multi AI Prompter',
 		description: 'Compare responses from different AI chatbots side-by-side',
 		link: 'https://chromewebstore.google.com/detail/multi-ai-prompter/ofcmkfknkfadepedefhcjamookaefmdh',
