@@ -86,6 +86,13 @@ const allProjects = [
 		icon: 'fa-solid fa-drum'
 	},
 	{
+		title: 'Music Matrix',
+		description: 'Combine drum loops with a tone matrix to create layered musical patterns',
+		link: 'https://timfinnigan.github.io/music-matrix/',
+		tags: ['Web App', 'Music'],
+		icon: 'fa-solid fa-music'
+	},
+	{
 		title: 'World Map Quiz',
 		description: 'Geography guessing game with random countries',
 		link: 'https://timfinnigan.github.io/world-map-quiz/',
