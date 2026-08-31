@@ -8,6 +8,8 @@ const allProjects = [
 		tags: ['AI', 'Utility'],
 		icon: 'fa-solid fa-comment-dots'
 	},
+	// Chrome extensions temporarily hidden - not live at this time
+	/*
 	{
 		title: 'Multi AI Prompter',
 		description: 'Compare responses from different AI chatbots side-by-side',
@@ -36,6 +38,7 @@ const allProjects = [
 		tags: ['Chrome', 'Utility'],
 		icon: 'fa-solid fa-link'
 	},
+	*/
 	{
 		title: 'Cognitive Biases Explorer',
 		description: 'Explore systematic patterns in thinking and decision-making',
@@ -43,6 +46,7 @@ const allProjects = [
 		tags: ['Web App', 'Education'],
 		icon: 'fa-solid fa-brain'
 	},
+	/*
 	{
 		title: 'Simple Pomodoro Timer',
 		description: '25-minute timer to improve productivity',
@@ -50,6 +54,7 @@ const allProjects = [
 		tags: ['Chrome', 'Productivity'],
 		icon: 'fa-solid fa-clock'
 	},
+	*/
 	{
 		title: 'Trip to PDF',
 		description: 'Convert your trip itineraries into beautiful PDF documents',
